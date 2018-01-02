@@ -1,0 +1,6 @@
+framework module Pods_Kesley_Challenge_iOS_Agap2IT {
+  umbrella header "Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h"
+
+  export *
+  module * { export * }
+}
