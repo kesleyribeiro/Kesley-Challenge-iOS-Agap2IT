@@ -3,85 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B6FC77E62F9E8E89BDF0B99E6F7912 /* MarshalDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECE536B59C8B0CDF31C58F6C57F8881 /* MarshalDictionary.swift */; };
-		08AB9D415A7437DF5F8EE0786429887F /* UnmarshalUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FA0B1BAD2A94F0F76A8A7F3016CEF2 /* UnmarshalUpdating.swift */; };
-		16AB2B1AE8305FB3497B3C9C40D98366 /* MarshaledObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5EDC4FD897FAC78BC5D1EF57F4A006 /* MarshaledObject.swift */; };
-		25110074648DA5B2C401C2897BEE8B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2B908C080EDAFE0C65DE3C5CB1ED101B /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7DFBDD642B67987405863EDBACC4F0 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m */; };
-		34C161BE2BD44C8C09CDB0D337B581FB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A567B20ABA6AC014AB9CC9962B3D7797 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m */; };
-		4278405D06E9E5C97FA70A641BA3D04D /* Unmarshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BD12FEF5857293F75D0DC7F6C6AC9B /* Unmarshaling.swift */; };
-		4D221B0FF8314D784F46F882F0DF95DE /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013DEB2B5A3BDE42E212CB29E6F6A28C /* JSON.swift */; };
-		5885017621D582C3B9483144E287A4D5 /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF7E79520C99AF5A8B61B923294821 /* KeyType.swift */; };
-		5E8A506B5DFB08C4798A28024079CFCF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469226556224233FAF700023D43EACD2 /* Operators.swift */; };
-		612FDCA2EC4D42BC402FD4C557522C1C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0BF09E6CE285111AB7661B9026826C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74B63F61F794A351591B84D05630E88A /* Marshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94E2B28432306960F5861766C83D3D /* Marshaling.swift */; };
-		762AECB8D6324D360944FF952776F3EE /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87228BF6282D4182368FEEB410426DCB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A9C21D41EF7C73D4D9B608DC0BF63CA /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E682CDB40E02DB130F5EDF4EE0D80E /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m */; };
-		81665C0F6C0727D5BAD2D4C4F31C47C1 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF60FD5F3F16C6AB4E4AF992D3C4196 /* Migration.swift */; };
-		850AAC2FCE6EFA4F1BA52607B289017B /* Marshal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7A99660E504AD3256EDC3DE7657F56 /* Marshal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9890E8C3A3536C1EA848BEBA25050ACB /* Marshal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E7570EF8FB348E5C074122DFC4859 /* Marshal-dummy.m */; };
-		CF6CC35E76E5EE8F9A6441AB07E8078C /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02857D420F2E8690F58B7AA49E00391 /* ValueType.swift */; };
-		D7E6E9261F9FA07BD3143EC8BF03DE23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DC3308CF4D32531F4F8FE8CE92A467B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DD3CE6137CC569681E1A79F5F00B95B9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBBB2D6B38557A68005F468A8D75256 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB73F54AD045CA93EE29EE9DBF17CAEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F3032F80DA1421C35337F25C88A7D3E7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD247BEBED83F5E4E918ECB126C2BB /* Error.swift */; };
-		F982DD7DFA050A3677D64AF6EFA6E8FB /* UnmarshalingWithContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB4A77FA73F23AFCC0774267FFD32C /* UnmarshalingWithContext.swift */; };
+		060CC2C9E771BF2EDF34363CCB331847 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBBB2D6B38557A68005F468A8D75256 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF0AD0DE9543FC76A5A0459473635C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1A4E5C5300DA12A806D8F7BA32F82E68 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A567B20ABA6AC014AB9CC9962B3D7797 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m */; };
+		1B59873C043558B990D8B88A484F10B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6C1B6C1D5DCB79F35F7F21D269BB7969 /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0BF09E6CE285111AB7661B9026826C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0E4B387FA3FF9AF26EC1E6A13DF8637 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7DFBDD642B67987405863EDBACC4F0 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m */; };
+		B94950B1730956ED6463625E253E69E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C48350E173A8AA6F8E675BBDE2294E10 /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E682CDB40E02DB130F5EDF4EE0D80E /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m */; };
+		D06F3A7211A8A9F8850BE614F0136FFE /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87228BF6282D4182368FEEB410426DCB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		84D52871CBA98079D9D4D36AC55FC671 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBE2BABDD2574C536D98AC5C29F59AAC;
-			remoteInfo = Marshal;
-		};
-		A3FAB9D4AAA65A24BCC9D7D622B508CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBE2BABDD2574C536D98AC5C29F59AAC;
-			remoteInfo = Marshal;
-		};
-		D13AE98BD9096F23BA7DE119B9CA677D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBE2BABDD2574C536D98AC5C29F59AAC;
-			remoteInfo = Marshal;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		013DEB2B5A3BDE42E212CB29E6F6A28C /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
 		0249F8A0A57377763A3BFF5D5BDF2C10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		046E7570EF8FB348E5C074122DFC4859 /* Marshal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Marshal-dummy.m"; sourceTree = "<group>"; };
-		12DB4A77FA73F23AFCC0774267FFD32C /* UnmarshalingWithContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalingWithContext.swift; path = Sources/UnmarshalingWithContext.swift; sourceTree = "<group>"; };
-		1B5EDC4FD897FAC78BC5D1EF57F4A006 /* MarshaledObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshaledObject.swift; path = Sources/MarshaledObject.swift; sourceTree = "<group>"; };
-		1D346B0874AF8D01388980C861D808CB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap"; sourceTree = "<group>"; };
-		21B47184B648B1C70F5D7FF3E9332FFA /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2515BCA6C36EA73D166FF7F4B19D67FF /* Marshal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-prefix.pch"; sourceTree = "<group>"; };
-		28AD247BEBED83F5E4E918ECB126C2BB /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		16238EA08E3FDAB4FB2B7E6CEE395E41 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D346B0874AF8D01388980C861D808CB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap"; sourceTree = "<group>"; };
+		28DA2357E9260CD5EE6F6CF2BA339367 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBBB2D6B38557A68005F468A8D75256 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h"; sourceTree = "<group>"; };
 		3213BB96B2F196AADAB14F5870261F78 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3378211E4C78180360FE124B27246933 /* Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig"; sourceTree = "<group>"; };
 		39F8423A5BCABB765983CF7BF1C48E62 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3ECE536B59C8B0CDF31C58F6C57F8881 /* MarshalDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshalDictionary.swift; path = Sources/MarshalDictionary.swift; sourceTree = "<group>"; };
-		467A64AD7B7E2701535032C909C54D42 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		469226556224233FAF700023D43EACD2 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
-		578E5072DEFC3E7B71AD226F2AC2A40E /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		58FA0B1BAD2A94F0F76A8A7F3016CEF2 /* UnmarshalUpdating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalUpdating.swift; path = Sources/UnmarshalUpdating.swift; sourceTree = "<group>"; };
 		5C0BF09E6CE285111AB7661B9026826C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h"; sourceTree = "<group>"; };
-		5E846D91D4AD41F27D32E3D6F2E364EC /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kesley_Challenge_iOS_Agap2IT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		65CB60F5F27F4A394C78F1B0F9118CE7 /* Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B918586067ED457C133EC96C5ACA317 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F935B44F550661BD7F80CDD507C7143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AF60FD5F3F16C6AB4E4AF992D3C4196 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = Sources/Migration.swift; sourceTree = "<group>"; };
 		7C54415F642C6888CC030F9C98461B39 /* Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig"; sourceTree = "<group>"; };
 		7DD43CFF1615E65E542A11DCE3D351A9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig"; sourceTree = "<group>"; };
 		83CE0CFC1BDCC7F36FC7672F57A4E76E /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-resources.sh"; sourceTree = "<group>"; };
@@ -89,64 +38,49 @@
 		87E682CDB40E02DB130F5EDF4EE0D80E /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m"; sourceTree = "<group>"; };
 		89A1EB1468BCE2960B4A65C510453656 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CDA43DC0369D5F8401DB26B1149B824 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E7A99660E504AD3256EDC3DE7657F56 /* Marshal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-umbrella.h"; sourceTree = "<group>"; };
 		9246F5F4DE245B25A356C029994A373C /* Pods-Kesley-Challenge-iOS-Agap2IT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BE74B37D2979C2AF61EB75613E1CE4E /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9E94E2B28432306960F5861766C83D3D /* Marshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marshaling.swift; path = Sources/Marshaling.swift; sourceTree = "<group>"; };
 		A0DFF51B0F94AF8764B7C78E5F7CE254 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A53136F42F3A61FEB6EECB9DD8C3210D /* Marshal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshal.xcconfig; sourceTree = "<group>"; };
 		A567B20ABA6AC014AB9CC9962B3D7797 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m"; sourceTree = "<group>"; };
 		A62F123B2CC1C7B0297444C3257FC457 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A6FF7E79520C99AF5A8B61B923294821 /* KeyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyType.swift; path = Sources/KeyType.swift; sourceTree = "<group>"; };
-		AEAD0A84035B08E5D74861301153FF3B /* Pods-Kesley-Challenge-iOS-Agap2IT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kesley-Challenge-iOS-Agap2IT.modulemap"; sourceTree = "<group>"; };
+		AEAD0A84035B08E5D74861301153FF3B /* Pods-Kesley-Challenge-iOS-Agap2IT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kesley-Challenge-iOS-Agap2IT.modulemap"; sourceTree = "<group>"; };
 		B42E61A260C2E89CBAEEB463A52E1AAD /* Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB89FA1EF02B5C060FAF27FC0A161389 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap"; sourceTree = "<group>"; };
+		BB89FA1EF02B5C060FAF27FC0A161389 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap"; sourceTree = "<group>"; };
+		BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		C6DF1A807600313563750E626B27BE0A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6A2212F603AF5DABBB7211AE54D7C1 /* Pods-Kesley-Challenge-iOS-Agap2IT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD04C777E5E9F9FFA7C1BC2D38D7E23A /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-frameworks.sh"; sourceTree = "<group>"; };
-		CE7CFC59CF4F9F3BDAACB97F5A802E34 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		D2DC40EF6AE9EC8C8954E457F4E24CC6 /* Marshal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Marshal.modulemap; sourceTree = "<group>"; };
-		D49612ED7DF632D39D4DED314D5C354A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8082D1D6EAE8081DD0F09514C607DAA /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-resources.sh"; sourceTree = "<group>"; };
 		DABABBB7E59A5EBFA7457C43399BB6F5 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB7DFBDD642B67987405863EDBACC4F0 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m"; sourceTree = "<group>"; };
-		E02857D420F2E8690F58B7AA49E00391 /* ValueType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueType.swift; path = Sources/ValueType.swift; sourceTree = "<group>"; };
-		E7BD12FEF5857293F75D0DC7F6C6AC9B /* Unmarshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unmarshaling.swift; path = Sources/Unmarshaling.swift; sourceTree = "<group>"; };
-		EA4E808084DA18C48E8FC6EF7C8269AA /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97C0CFD6499FF4CF94E96F1124D1AC9 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		FA2276009BB05B601D04076B00C8F726 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5867ADEB412B74B8DE8F15FD1AC3B4CB /* Frameworks */ = {
+		711A1279A9B0DBB4BE20E5B629C11182 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB73F54AD045CA93EE29EE9DBF17CAEF /* Foundation.framework in Frameworks */,
+				1B59873C043558B990D8B88A484F10B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6627FC233EDA20E22E56539B9522B9E2 /* Frameworks */ = {
+		726A0BF34DA08C6EA27746C3759053E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3308CF4D32531F4F8FE8CE92A467B8 /* Foundation.framework in Frameworks */,
+				0DF0AD0DE9543FC76A5A0459473635C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA6FCA39038D579D711A1A592A0FDA68 /* Frameworks */ = {
+		7F90676D29E878C17DA47E8185B12AF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25110074648DA5B2C401C2897BEE8B43 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBAE5CF7C9B65406E4D80DDC94FE8272 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7E6E9261F9FA07BD3143EC8BF03DE23 /* Foundation.framework in Frameworks */,
+				B94950B1730956ED6463625E253E69E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,64 +97,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0E5EF354279800C1B960755C5BD0B54B /* Pods */ = {
+		2BE4EFFE092A9DA7A925B1DF402E929B /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				DE1F7A4B1633E6B065667A09B02B283F /* GoogleMaps */,
-				79137C34FA9A60D4577CF10144EB9572 /* GooglePlaces */,
-				2A7AD9D99E1B1F33D1E51ABD87C31919 /* Marshal */,
+				D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */,
 			);
-			name = Pods;
+			name = Base;
 			sourceTree = "<group>";
 		};
-		287951A820D5DA069B22B9FAA4B9DF37 /* Frameworks */ = {
+		5E72FE505486D66241C353F0B810A506 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				578E5072DEFC3E7B71AD226F2AC2A40E /* GoogleMapsBase.framework */,
+				2BE4EFFE092A9DA7A925B1DF402E929B /* Base */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2A7AD9D99E1B1F33D1E51ABD87C31919 /* Marshal */ = {
-			isa = PBXGroup;
-			children = (
-				28AD247BEBED83F5E4E918ECB126C2BB /* Error.swift */,
-				013DEB2B5A3BDE42E212CB29E6F6A28C /* JSON.swift */,
-				A6FF7E79520C99AF5A8B61B923294821 /* KeyType.swift */,
-				3ECE536B59C8B0CDF31C58F6C57F8881 /* MarshalDictionary.swift */,
-				1B5EDC4FD897FAC78BC5D1EF57F4A006 /* MarshaledObject.swift */,
-				9E94E2B28432306960F5861766C83D3D /* Marshaling.swift */,
-				7AF60FD5F3F16C6AB4E4AF992D3C4196 /* Migration.swift */,
-				469226556224233FAF700023D43EACD2 /* Operators.swift */,
-				E7BD12FEF5857293F75D0DC7F6C6AC9B /* Unmarshaling.swift */,
-				12DB4A77FA73F23AFCC0774267FFD32C /* UnmarshalingWithContext.swift */,
-				58FA0B1BAD2A94F0F76A8A7F3016CEF2 /* UnmarshalUpdating.swift */,
-				E02857D420F2E8690F58B7AA49E00391 /* ValueType.swift */,
-				35A3D674096B2E2D984833DE84BDC6D8 /* Support Files */,
-			);
-			path = Marshal;
-			sourceTree = "<group>";
-		};
-		35A3D674096B2E2D984833DE84BDC6D8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F935B44F550661BD7F80CDD507C7143 /* Info.plist */,
-				D2DC40EF6AE9EC8C8954E457F4E24CC6 /* Marshal.modulemap */,
-				A53136F42F3A61FEB6EECB9DD8C3210D /* Marshal.xcconfig */,
-				046E7570EF8FB348E5C074122DFC4859 /* Marshal-dummy.m */,
-				2515BCA6C36EA73D166FF7F4B19D67FF /* Marshal-prefix.pch */,
-				8E7A99660E504AD3256EDC3DE7657F56 /* Marshal-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Marshal";
-			sourceTree = "<group>";
-		};
-		3E6330E396245DF1B5A3DDD9A7C9CAF2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CE7CFC59CF4F9F3BDAACB97F5A802E34 /* GooglePlaces.bundle */,
-			);
-			name = Resources;
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 		72351D9382AE4BEF2C9D58579EA72B04 /* Pods-Kesley-Challenge-iOS-Agap2IT */ = {
@@ -267,43 +158,43 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		79137C34FA9A60D4577CF10144EB9572 /* GooglePlaces */ = {
-			isa = PBXGroup;
-			children = (
-				EF9750BDFDC2E0194D8D840CCB2D674C /* Frameworks */,
-				3E6330E396245DF1B5A3DDD9A7C9CAF2 /* Resources */,
-			);
-			path = GooglePlaces;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0E5EF354279800C1B960755C5BD0B54B /* Pods */,
-				9570DABBC0DF76509FBE1AA0909A76A5 /* Products */,
+				FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */,
+				A767EB16D8760B6D37C72C32EA1C124C /* Products */,
 				072EE6240F97DC24832D6B022A1F0587 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9570DABBC0DF76509FBE1AA0909A76A5 /* Products */ = {
+		82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				21B47184B648B1C70F5D7FF3E9332FFA /* Marshal.framework */,
-				5E846D91D4AD41F27D32E3D6F2E364EC /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */,
-				D49612ED7DF632D39D4DED314D5C354A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */,
-				EA4E808084DA18C48E8FC6EF7C8269AA /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */,
+				FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */,
+				8F65AED48186CC52021B01455C4C9894 /* Resources */,
 			);
-			name = Products;
+			name = GooglePlaces;
+			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		A634990CE6EDF74167313D3BA33005EB /* Base */ = {
+		8F65AED48186CC52021B01455C4C9894 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				287951A820D5DA069B22B9FAA4B9DF37 /* Frameworks */,
+				E97C0CFD6499FF4CF94E96F1124D1AC9 /* GooglePlaces.bundle */,
 			);
-			name = Base;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A767EB16D8760B6D37C72C32EA1C124C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16238EA08E3FDAB4FB2B7E6CEE395E41 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */,
+				C6DF1A807600313563750E626B27BE0A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */,
+				28DA2357E9260CD5EE6F6CF2BA339367 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -332,18 +223,27 @@
 			path = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
 			sourceTree = "<group>";
 		};
-		DE1F7A4B1633E6B065667A09B02B283F /* GoogleMaps */ = {
+		D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A634990CE6EDF74167313D3BA33005EB /* Base */,
+				BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */,
 			);
-			path = GoogleMaps;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF9750BDFDC2E0194D8D840CCB2D674C /* Frameworks */ = {
+		FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				467A64AD7B7E2701535032C909C54D42 /* GooglePlaces.framework */,
+				5E72FE505486D66241C353F0B810A506 /* GoogleMaps */,
+				82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -351,110 +251,82 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3359BDB61262C4EE47F3D6F07AFC2499 /* Headers */ = {
+		055E1364CC0CDF8B3034E082A53FF21C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				612FDCA2EC4D42BC402FD4C557522C1C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */,
+				060CC2C9E771BF2EDF34363CCB331847 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		469380C972DA442190F2C853CDA2D2E7 /* Headers */ = {
+		5FFF70D52024583D7D718241861E6709 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3CE6137CC569681E1A79F5F00B95B9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */,
+				6C1B6C1D5DCB79F35F7F21D269BB7969 /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EC8513C28E19578B263760909F03166 /* Headers */ = {
+		8048F38F3507C61DA77ACA102CF09D37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762AECB8D6324D360944FF952776F3EE /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC4F4E56F8ECAC1178C8045FAC49791D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				850AAC2FCE6EFA4F1BA52607B289017B /* Marshal-umbrella.h in Headers */,
+				D06F3A7211A8A9F8850BE614F0136FFE /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		490A002BC0A0F0E546933ADB6F57D8AF /* Pods-Kesley-Challenge-iOS-Agap2IT */ = {
+		1EB955AAC291E4DDC53F015E7E3D65DD /* Pods-Kesley-Challenge-iOS-Agap2IT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0222D86090F9874BE7788B042A5C830 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */;
+			buildConfigurationList = 9373731AF1DF01EBDE714320B1C95734 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */;
 			buildPhases = (
-				7355F850FF9B4BCC5AD2CBAB52E7D789 /* Sources */,
-				6627FC233EDA20E22E56539B9522B9E2 /* Frameworks */,
-				3359BDB61262C4EE47F3D6F07AFC2499 /* Headers */,
+				9BA4BBDBE312B7B8E2B18C47FBEE9343 /* Sources */,
+				726A0BF34DA08C6EA27746C3759053E7 /* Frameworks */,
+				5FFF70D52024583D7D718241861E6709 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				758109D85258046C165F669A4F13B3FB /* PBXTargetDependency */,
 			);
 			name = "Pods-Kesley-Challenge-iOS-Agap2IT";
 			productName = "Pods-Kesley-Challenge-iOS-Agap2IT";
-			productReference = 5E846D91D4AD41F27D32E3D6F2E364EC /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */;
+			productReference = 16238EA08E3FDAB4FB2B7E6CEE395E41 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5355223CCC5FC8DE0E3EA774E2926C2C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */ = {
+		9472E84F1A610C0B74D565586DF8AA5C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E075D30B8A53BA22D1425BA518A4B972 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */;
+			buildConfigurationList = DFF6CC0875F85575798CE2F43AF0BFFB /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */;
 			buildPhases = (
-				0FA51CCDC60F0CA912A5E1579B5E6BDE /* Sources */,
-				DBAE5CF7C9B65406E4D80DDC94FE8272 /* Frameworks */,
-				469380C972DA442190F2C853CDA2D2E7 /* Headers */,
+				F3A75A0642E02808170F8FA78AD1FF16 /* Sources */,
+				711A1279A9B0DBB4BE20E5B629C11182 /* Frameworks */,
+				055E1364CC0CDF8B3034E082A53FF21C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3D8382F3835496839BFDF4D5CA8C807C /* PBXTargetDependency */,
 			);
 			name = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
 			productName = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
-			productReference = EA4E808084DA18C48E8FC6EF7C8269AA /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */;
+			productReference = 28DA2357E9260CD5EE6F6CF2BA339367 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		80C4FC9285776BD5EF947C9533214A8F /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */ = {
+		9938577ABBA5FE302753A2E540B56C6C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E22A87EDE8FC7BFFAD77FC58971D04DA /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */;
+			buildConfigurationList = F9624CBF5DB6214DBE9DBA61CF01FFD0 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */;
 			buildPhases = (
-				36F06049A0026E5EA475D5E9B2B33F22 /* Sources */,
-				AA6FCA39038D579D711A1A592A0FDA68 /* Frameworks */,
-				8EC8513C28E19578B263760909F03166 /* Headers */,
+				24958D4D8A011BC5ACEB0F05BAF30ACE /* Sources */,
+				7F90676D29E878C17DA47E8185B12AF2 /* Frameworks */,
+				8048F38F3507C61DA77ACA102CF09D37 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C602E0A086E173EE1F289631A955F37 /* PBXTargetDependency */,
 			);
 			name = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests";
 			productName = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests";
-			productReference = D49612ED7DF632D39D4DED314D5C354A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27A9C5BA1C20EDC507AA4BA53BBDB621 /* Build configuration list for PBXNativeTarget "Marshal" */;
-			buildPhases = (
-				4A4ECD822FAC12A30BDE2424F2E8226C /* Sources */,
-				5867ADEB412B74B8DE8F15FD1AC3B4CB /* Frameworks */,
-				DC4F4E56F8ECAC1178C8045FAC49791D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Marshal;
-			productName = Marshal;
-			productReference = 21B47184B648B1C70F5D7FF3E9332FFA /* Marshal.framework */;
+			productReference = C6DF1A807600313563750E626B27BE0A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -465,11 +337,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					FBE2BABDD2574C536D98AC5C29F59AAC = {
-						ProvisioningStyle = Manual;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -479,88 +346,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9570DABBC0DF76509FBE1AA0909A76A5 /* Products */;
+			productRefGroup = A767EB16D8760B6D37C72C32EA1C124C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */,
-				490A002BC0A0F0E546933ADB6F57D8AF /* Pods-Kesley-Challenge-iOS-Agap2IT */,
-				80C4FC9285776BD5EF947C9533214A8F /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */,
-				5355223CCC5FC8DE0E3EA774E2926C2C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */,
+				1EB955AAC291E4DDC53F015E7E3D65DD /* Pods-Kesley-Challenge-iOS-Agap2IT */,
+				9938577ABBA5FE302753A2E540B56C6C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */,
+				9472E84F1A610C0B74D565586DF8AA5C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FA51CCDC60F0CA912A5E1579B5E6BDE /* Sources */ = {
+		24958D4D8A011BC5ACEB0F05BAF30ACE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B908C080EDAFE0C65DE3C5CB1ED101B /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */,
+				1A4E5C5300DA12A806D8F7BA32F82E68 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36F06049A0026E5EA475D5E9B2B33F22 /* Sources */ = {
+		9BA4BBDBE312B7B8E2B18C47FBEE9343 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C161BE2BD44C8C09CDB0D337B581FB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */,
+				C48350E173A8AA6F8E675BBDE2294E10 /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A4ECD822FAC12A30BDE2424F2E8226C /* Sources */ = {
+		F3A75A0642E02808170F8FA78AD1FF16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3032F80DA1421C35337F25C88A7D3E7 /* Error.swift in Sources */,
-				4D221B0FF8314D784F46F882F0DF95DE /* JSON.swift in Sources */,
-				5885017621D582C3B9483144E287A4D5 /* KeyType.swift in Sources */,
-				9890E8C3A3536C1EA848BEBA25050ACB /* Marshal-dummy.m in Sources */,
-				02B6FC77E62F9E8E89BDF0B99E6F7912 /* MarshalDictionary.swift in Sources */,
-				16AB2B1AE8305FB3497B3C9C40D98366 /* MarshaledObject.swift in Sources */,
-				74B63F61F794A351591B84D05630E88A /* Marshaling.swift in Sources */,
-				81665C0F6C0727D5BAD2D4C4F31C47C1 /* Migration.swift in Sources */,
-				5E8A506B5DFB08C4798A28024079CFCF /* Operators.swift in Sources */,
-				4278405D06E9E5C97FA70A641BA3D04D /* Unmarshaling.swift in Sources */,
-				F982DD7DFA050A3677D64AF6EFA6E8FB /* UnmarshalingWithContext.swift in Sources */,
-				08AB9D415A7437DF5F8EE0786429887F /* UnmarshalUpdating.swift in Sources */,
-				CF6CC35E76E5EE8F9A6441AB07E8078C /* ValueType.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7355F850FF9B4BCC5AD2CBAB52E7D789 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A9C21D41EF7C73D4D9B608DC0BF63CA /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */,
+				A0E4B387FA3FF9AF26EC1E6A13DF8637 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3D8382F3835496839BFDF4D5CA8C807C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Marshal;
-			target = FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */;
-			targetProxy = A3FAB9D4AAA65A24BCC9D7D622B508CB /* PBXContainerItemProxy */;
-		};
-		758109D85258046C165F669A4F13B3FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Marshal;
-			target = FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */;
-			targetProxy = 84D52871CBA98079D9D4D36AC55FC671 /* PBXContainerItemProxy */;
-		};
-		7C602E0A086E173EE1F289631A955F37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Marshal;
-			target = FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */;
-			targetProxy = D13AE98BD9096F23BA7DE119B9CA677D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1CFC5CA6E393D48CB3B5283900D6076E /* Debug */ = {
+		0741DB0BA6AE4C6EC8B8C7BA948FE81C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3213BB96B2F196AADAB14F5870261F78 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.debug.xcconfig */;
 			buildSettings = {
@@ -589,127 +414,21 @@
 				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2387AD30EA764398E7D0F438A3968A5C /* Release */ = {
+		0B1205C857CE54F63707C8BE9E0401E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD43CFF1615E65E542A11DCE3D351A9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig */;
+			baseConfigurationReference = 7C54415F642C6888CC030F9C98461B39 /* Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3E10F4C1D60BB1EA89F8F6E1948FC04F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53136F42F3A61FEB6EECB9DD8C3210D /* Marshal.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Marshal/Marshal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Marshal/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Marshal/Marshal.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Marshal;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		542244598A5F4EE4970201790C8D9018 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A62F123B2CC1C7B0297444C3257FC457 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		59A99A38993E01B3509E1A17B934C5B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3378211E4C78180360FE124B27246933 /* Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -722,7 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Pods-Kesley-Challenge-iOS-Agap2IT.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -730,12 +449,11 @@
 				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -781,7 +499,77 @@
 			};
 			name = Debug;
 		};
-		94EE3260D9E82C20B11815B72E9AB35E /* Debug */ = {
+		81E0325A90FE9FFF4F930E856078DFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD43CFF1615E65E542A11DCE3D351A9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC2030BC326FF3867B699F8CC893A0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62F123B2CC1C7B0297444C3257FC457 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B62B81821C7EC17EE99F83AD00FC1530 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DABABBB7E59A5EBFA7457C43399BB6F5 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.debug.xcconfig */;
 			buildSettings = {
@@ -810,7 +598,6 @@
 				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -857,15 +644,15 @@
 			};
 			name = Release;
 		};
-		C9748FB26E952ACC7D1EC1CB79DE988F /* Release */ = {
+		C8C02396AF380363B5C1FA7D59A7DF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C54415F642C6888CC030F9C98461B39 /* Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig */;
+			baseConfigurationReference = 3378211E4C78180360FE124B27246933 /* Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -878,7 +665,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Pods-Kesley-Challenge-iOS-Agap2IT.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -890,56 +677,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		DAF8992909F17E2F1FDC07AA83DF1BD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53136F42F3A61FEB6EECB9DD8C3210D /* Marshal.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Marshal/Marshal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Marshal/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Marshal/Marshal.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Marshal;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27A9C5BA1C20EDC507AA4BA53BBDB621 /* Build configuration list for PBXNativeTarget "Marshal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAF8992909F17E2F1FDC07AA83DF1BD9 /* Debug */,
-				3E10F4C1D60BB1EA89F8F6E1948FC04F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -949,29 +691,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0222D86090F9874BE7788B042A5C830 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */ = {
+		9373731AF1DF01EBDE714320B1C95734 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59A99A38993E01B3509E1A17B934C5B1 /* Debug */,
-				C9748FB26E952ACC7D1EC1CB79DE988F /* Release */,
+				C8C02396AF380363B5C1FA7D59A7DF18 /* Debug */,
+				0B1205C857CE54F63707C8BE9E0401E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E075D30B8A53BA22D1425BA518A4B972 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */ = {
+		DFF6CC0875F85575798CE2F43AF0BFFB /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94EE3260D9E82C20B11815B72E9AB35E /* Debug */,
-				542244598A5F4EE4970201790C8D9018 /* Release */,
+				B62B81821C7EC17EE99F83AD00FC1530 /* Debug */,
+				AC2030BC326FF3867B699F8CC893A0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E22A87EDE8FC7BFFAD77FC58971D04DA /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */ = {
+		F9624CBF5DB6214DBE9DBA61CF01FFD0 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CFC5CA6E393D48CB3B5283900D6076E /* Debug */,
-				2387AD30EA764398E7D0F438A3968A5C /* Release */,
+				0741DB0BA6AE4C6EC8B8C7BA948FE81C /* Debug */,
+				81E0325A90FE9FFF4F930E856078DFB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

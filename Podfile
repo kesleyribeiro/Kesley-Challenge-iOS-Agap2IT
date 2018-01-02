@@ -3,7 +3,6 @@ use_frameworks!
 target 'Kesley-Challenge-iOS-Agap2IT' do
 
   pod 'GooglePlaces'
-  pod 'Marshal'
 
   target 'Kesley-Challenge-iOS-Agap2ITTests' do
   end

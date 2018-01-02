@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '490A002BC0A0F0E546933ADB6F57D8AF'
+               BlueprintIdentifier = '1EB955AAC291E4DDC53F015E7E3D65DD'
                BlueprintName = 'Pods-Kesley-Challenge-iOS-Agap2IT'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-Kesley-Challenge-iOS-Agap2IT.framework'>

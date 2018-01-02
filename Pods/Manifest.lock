@@ -2,17 +2,14 @@ PODS:
   - GoogleMaps/Base (2.5.0)
   - GooglePlaces (2.5.0):
     - GoogleMaps/Base (= 2.5.0)
-  - Marshal (1.2.4)
 
 DEPENDENCIES:
   - GooglePlaces
-  - Marshal
 
 SPEC CHECKSUMS:
   GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
   GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
-  Marshal: 8e04e6624e506921db7143b0bfd83caee03f32d6
 
-PODFILE CHECKSUM: c00f1d0c8cd721d9f78dd648245a076114e37670
+PODFILE CHECKSUM: 46d8c33a8f7f1edde056db0505daa71eafb72425
 
 COCOAPODS: 1.2.0
