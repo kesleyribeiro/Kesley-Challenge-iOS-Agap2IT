@@ -28,6 +28,3 @@ var PLACE_ID = ""
 
 // SEGUES
 let TO_DETAILS = "toDetails"
-
-// SAVE DETAILS INFO
-var DETAILS_INFO_PLACE = ""
