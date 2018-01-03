@@ -18,6 +18,7 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
 
     // Code obj
     var allPlacesArray = [AnyObject]()
+    var showAlerts = Alerts()
 
     // First load func
     override func viewDidLoad() {
@@ -85,6 +86,8 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
                 self.placeTblView.reloadData()
 
             case .error(let error):
+                // Show the alert in the view
+                self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get data! Try again!", tipoAlerta: 2)
                 print("\nError: \(error)")
             }
         }
@@ -131,7 +134,6 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         
         // Show *Cancel button in searchBar
         searchBar.setShowsCancelButton(true, animated: true)
-        print("\nSearchBar is tapped!")
 
         return true
     }
@@ -152,20 +154,16 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         allPlacesArray.removeAll()
 
         cofigHideTblView()
-
-        print("\nCancel button is clicked!")
     }
     
     // Called when button "Search" or "Buscar" is clicked
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchTheText(searchBar)
-        print("\nUser clicked in the button to search!")
     }
     
     // Called when some text in searchBar got changed
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         searchTheText(searchBar)
-        print("\nText got changed!")
     }
     
     // Get and organize the entered text
@@ -186,11 +184,9 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
             
             // Removes accentuation
             let textWithoutAccent = textEnteredByUser.folding(options: .diacriticInsensitive, locale: .current)
-            print("\nWithout accent: \(textWithoutAccent)")
             
             // Removes spaces to concatenate the string
             let textWithoutSpace = textWithoutAccent.replacingOccurrences(of: " ", with: "")
-            print("\nWithout space: \(textWithoutSpace)")
             
             // Send the correct text to request data of API
             getPlace(textEnteredByUser: textWithoutSpace)
@@ -232,8 +228,6 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
 
         // Hide the keyboard
         self.view.endEditing(true)
-        
-        print("\nUser touched the view!")
     }
 
 }

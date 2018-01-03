@@ -21,6 +21,7 @@
 		FA2AD75E1FF4FBDD008E59CD /* PlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AD75D1FF4FBDD008E59CD /* PlaceVC.swift */; };
 		FA2AD7601FF56316008E59CD /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AD75F1FF56316008E59CD /* PlaceCell.swift */; };
 		FA2AD7621FF572A9008E59CD /* DetailsPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AD7611FF572A9008E59CD /* DetailsPlaceVC.swift */; };
+		FA9A3D0C1FFC734500934125 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A3D0B1FFC734500934125 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		FA2AD75D1FF4FBDD008E59CD /* PlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceVC.swift; sourceTree = "<group>"; };
 		FA2AD75F1FF56316008E59CD /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
 		FA2AD7611FF572A9008E59CD /* DetailsPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPlaceVC.swift; sourceTree = "<group>"; };
+		FA9A3D0B1FFC734500934125 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +150,6 @@
 				FA2AD7241FF418E5008E59CD /* AppDelegate.swift */,
 				FA2AD7561FF421CA008E59CD /* Services */,
 				FA2AD7551FF421C1008E59CD /* Utils */,
-				FA2AD7691FF7E6A8008E59CD /* Model */,
 				FA2AD7531FF421AF008E59CD /* View */,
 				FA2AD7521FF421AA008E59CD /* Controller */,
 			);
@@ -198,6 +199,7 @@
 				FA2AD7571FF421EF008E59CD /* Constants.swift */,
 				FA2AD72B1FF418E5008E59CD /* Assets.xcassets */,
 				FA2AD7301FF418E5008E59CD /* Info.plist */,
+				FA9A3D0B1FFC734500934125 /* Alerts.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -208,14 +210,6 @@
 				FA2AD7591FF42273008E59CD /* DataService.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		FA2AD7691FF7E6A8008E59CD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			path = ../Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +498,7 @@
 				FA2AD7581FF421EF008E59CD /* Constants.swift in Sources */,
 				FA2AD75E1FF4FBDD008E59CD /* PlaceVC.swift in Sources */,
 				FA2AD7621FF572A9008E59CD /* DetailsPlaceVC.swift in Sources */,
+				FA9A3D0C1FFC734500934125 /* Alerts.swift in Sources */,
 				FA2AD7601FF56316008E59CD /* PlaceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

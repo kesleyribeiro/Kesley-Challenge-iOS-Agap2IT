@@ -7,86 +7,218 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		060CC2C9E771BF2EDF34363CCB331847 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBBB2D6B38557A68005F468A8D75256 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DF0AD0DE9543FC76A5A0459473635C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1A4E5C5300DA12A806D8F7BA32F82E68 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A567B20ABA6AC014AB9CC9962B3D7797 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m */; };
-		1B59873C043558B990D8B88A484F10B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6C1B6C1D5DCB79F35F7F21D269BB7969 /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0BF09E6CE285111AB7661B9026826C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0E4B387FA3FF9AF26EC1E6A13DF8637 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7DFBDD642B67987405863EDBACC4F0 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m */; };
-		B94950B1730956ED6463625E253E69E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		C48350E173A8AA6F8E675BBDE2294E10 /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E682CDB40E02DB130F5EDF4EE0D80E /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m */; };
-		D06F3A7211A8A9F8850BE614F0136FFE /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87228BF6282D4182368FEEB410426DCB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0001670DF9C0B3528B647BE205628376 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26737D2344E31A74D381236361A38DF6 /* Array+Utils.swift */; };
+		0484CBD7E1A92C3E6FF9B00E71A6F081 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D044E2B2F408505FB9558A1E702E8 /* Weak.swift */; };
+		06456B9166FF9ABE60F059076E744DDD /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A567B20ABA6AC014AB9CC9962B3D7797 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m */; };
+		1464EC142F3703142F875B1F4E9F0BB4 /* NSBundle+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B29678B64C87FEE1858790D43A9F79D /* NSBundle+Utils.swift */; };
+		1795476AA3C86803D8D1361EEF53088A /* SwiftMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D537DE6AF03993385118B368A3EBB70 /* SwiftMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19720F6A05A2BA71741AD82365CCA375 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7DFBDD642B67987405863EDBACC4F0 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m */; };
+		1D2D8CE505C9BF41851E20DAEB4E5A33 /* MarginAdjustable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12930B92014750AA138D97A8E2ABF04A /* MarginAdjustable.swift */; };
+		1D6F3C496DBC2DD34DE39725A613DCA0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8F6138B3B80A88CCDBD0011685950 /* Presenter.swift */; };
+		1ED73F68A6AF18D83A5EA539EE9C630A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA264B2F3A1986C2B11160CDCE8D1A8 /* Error.swift */; };
+		235F22E8D1ADBE9D9BBBCE01E2153058 /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03CA2FD229C1484BA79F3C427256266 /* TabView.xib */; };
+		2F7C08058C44F8FE70B0831929BFC16A /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB1A08891C529CEBBE2A5283355452 /* Identifiable.swift */; };
+		311E13E55EFC5E8D31C1207DC1217D9E /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3701F0554891C2B107C7AD7F1C49AF /* CardView.xib */; };
+		38EB69CF0B68C98E69BCBE737130C238 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6144C13F51E0D7EA92D8518A65B80C /* Theme.swift */; };
+		3B29294EF7A04B0195D8A7087E5B8F25 /* MaskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423B9F8394F36D34E17DB6A0166808D /* MaskingView.swift */; };
+		5B31475273513CC3E7E6737089C92CF3 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB2E81235E358AB7AF02DF0B64E8D7 /* UIViewController+Utils.swift */; };
+		60D6AE0EF4903AE6613B74BB9120A9CF /* SwiftMessages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C82361AFE29E766F7921668C5F9772D /* SwiftMessages.bundle */; };
+		61A5C6F2494C51795E25BE1695603E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6830B04199E27ED41F64BD69D779BF88 /* PassthroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D51E62FB0F5AB922FCCC5688010FEC /* PassthroughWindow.swift */; };
+		6927DE7427FCEBAC4B4AC548CF1C1BC5 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1D0EE3C017544E56BA6104807A162 /* BackgroundViewable.swift */; };
+		69C32A37B8F9D98FC4A7E263C8BC4B04 /* SwiftMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3EF54BFB3D12242E869E099109CB6 /* SwiftMessages-dummy.m */; };
+		6B0FDD3115773D7F7F82D9F54E881C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		74BBB0E06180CBF3F170A3E161DCA371 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E989F99C4CB22084DDC2477CD9A923F /* Animator.swift */; };
+		7B932446F26CA317B287C2027A8ECEF2 /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0BF09E6CE285111AB7661B9026826C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80122E27F5FD604ACEC3FAEEC6603FD2 /* SwiftMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86947430A8DC6DE0DEAFA3F6F7A528EE /* SwiftMessages.swift */; };
+		8BE656F8DE0425DCC7583C5DF886FF61 /* CenterAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A4FE5828FE12BA10CAB76559206A0 /* CenterAnimation.swift */; };
+		933D3B5CA4346BB49C1962C81715AF54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4F3F1CF9C457380B1737E8EDBB04D3 /* Images.xcassets */; };
+		9BAAB8A28B1BBB2AFBC61F66670D5D18 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F79421DCEE8CC6C448AF72DE1F73D6C /* MessageView.xib */; };
+		9E4B6A0EC53666D038904628F14D088A /* AccessibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2919D40D4A89CA03A714C621956290E3 /* AccessibleMessage.swift */; };
+		9F7DD7D175A1CFB7D44A884A1FB348F5 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5C7DAD09C0C7DA5741D7E46AAC68F7 /* MessageView.swift */; };
+		B53B8A1A44ADFF3B088951EC31099342 /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E682CDB40E02DB130F5EDF4EE0D80E /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m */; };
+		B53BCEA8AA6F2AEDFFD2581E8ABBF8ED /* PhysicsPanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5955AEF80EBC437ACE9EACC272FB30E /* PhysicsPanHandler.swift */; };
+		BAFA56D51BC9F4B3AD61FD447D3D95D7 /* TopBottomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66346722164D01202531A928B4669C0B /* TopBottomAnimation.swift */; };
+		BCC54310DDEDE840CE0F3584FFED7DA7 /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490BC0D8A9DAFC8116C28F768A41E30 /* PassthroughView.swift */; };
+		CC0DB54BAB7D9B1587F65BC3D69398DF /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1632FD3B07F8C478A69D656D668598 /* WindowViewController.swift */; };
+		CCB0C23BADF7497C8836D36264AC72A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		CCD7EFFB7F3A04DBA15935A1A619670A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		CD4E0D1732D18FE88B429D0930491932 /* StatusLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DF81199DA0B1AD84D98A48751F5364 /* StatusLine.xib */; };
+		CFEAA5792B9DD0A35DDC896B22B6DDB7 /* CenteredView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D9B863DC011F3838C9C40EB041C4DC5 /* CenteredView.xib */; };
+		D2161DD3F6A5D9AEF96EC0222DE13297 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87228BF6282D4182368FEEB410426DCB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D60590CD10BC9B5892E2387FE71A08DA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29FF17311C3815A6F78945D4DBD5016 /* BaseView.swift */; };
+		DB38FDE6D7B06D946D7B04B8E6DA930D /* MessageViewIOS8.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CF87BADAD19C65F38D891877965947F /* MessageViewIOS8.xib */; };
+		DC8C53D974C23808870857E3E407DDA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		E2E2996DA12694809AD5474FCD0D9B18 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBBB2D6B38557A68005F468A8D75256 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17BC50D25D48345BE4BC0B0266BB25A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CC2FEC4FEC05462FDCFB0E8C0AAC9A;
+			remoteInfo = SwiftMessages;
+		};
+		1B0B935FD7630C13BC00E6938114C383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD8000B54EF4B6387F96FCBFFBE1DA2;
+			remoteInfo = "SwiftMessages-SwiftMessages";
+		};
+		7970CB8787701A31835B6DD911328FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CC2FEC4FEC05462FDCFB0E8C0AAC9A;
+			remoteInfo = SwiftMessages;
+		};
+		BD2E6BBF8E28CB99AEF84A2DC40F3EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CC2FEC4FEC05462FDCFB0E8C0AAC9A;
+			remoteInfo = SwiftMessages;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0249F8A0A57377763A3BFF5D5BDF2C10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16238EA08E3FDAB4FB2B7E6CEE395E41 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9B863DC011F3838C9C40EB041C4DC5 /* CenteredView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CenteredView.xib; path = SwiftMessages/Resources/CenteredView.xib; sourceTree = "<group>"; };
+		12930B92014750AA138D97A8E2ABF04A /* MarginAdjustable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarginAdjustable.swift; path = SwiftMessages/MarginAdjustable.swift; sourceTree = "<group>"; };
+		1B29678B64C87FEE1858790D43A9F79D /* NSBundle+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+Utils.swift"; path = "SwiftMessages/NSBundle+Utils.swift"; sourceTree = "<group>"; };
 		1D346B0874AF8D01388980C861D808CB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap"; sourceTree = "<group>"; };
-		28DA2357E9260CD5EE6F6CF2BA339367 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3701F0554891C2B107C7AD7F1C49AF /* CardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CardView.xib; path = SwiftMessages/Resources/CardView.xib; sourceTree = "<group>"; };
+		1F79421DCEE8CC6C448AF72DE1F73D6C /* MessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageView.xib; path = SwiftMessages/Resources/MessageView.xib; sourceTree = "<group>"; };
+		20D51E62FB0F5AB922FCCC5688010FEC /* PassthroughWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughWindow.swift; path = SwiftMessages/PassthroughWindow.swift; sourceTree = "<group>"; };
+		26737D2344E31A74D381236361A38DF6 /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "SwiftMessages/Array+Utils.swift"; sourceTree = "<group>"; };
+		27E1D0EE3C017544E56BA6104807A162 /* BackgroundViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundViewable.swift; path = SwiftMessages/BackgroundViewable.swift; sourceTree = "<group>"; };
+		2919D40D4A89CA03A714C621956290E3 /* AccessibleMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibleMessage.swift; path = SwiftMessages/AccessibleMessage.swift; sourceTree = "<group>"; };
+		29E5F6ADC408C2417C01FD21B041724C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EBBB2D6B38557A68005F468A8D75256 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h"; sourceTree = "<group>"; };
 		3213BB96B2F196AADAB14F5870261F78 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3290AA6E848BD6EBF6AC3C57CD560D41 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		3378211E4C78180360FE124B27246933 /* Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig"; sourceTree = "<group>"; };
+		3490BC0D8A9DAFC8116C28F768A41E30 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = SwiftMessages/PassthroughView.swift; sourceTree = "<group>"; };
+		362F545407521529D239F8A5C56BC555 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		39F8423A5BCABB765983CF7BF1C48E62 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48F1984FEFACFF8555D3BEA51A558334 /* SwiftMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-prefix.pch"; sourceTree = "<group>"; };
+		4C77D334B98FE6A851C9C3D5470FE46C /* ResourceBundle-SwiftMessages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftMessages-Info.plist"; sourceTree = "<group>"; };
+		4EF00BC0EE43FE7914FD25D718DCC352 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF81199DA0B1AD84D98A48751F5364 /* StatusLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StatusLine.xib; path = SwiftMessages/Resources/StatusLine.xib; sourceTree = "<group>"; };
+		5A4B25EB5C967F3A6DB7944A94B4CAAD /* SwiftMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.xcconfig; sourceTree = "<group>"; };
 		5C0BF09E6CE285111AB7661B9026826C /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h"; sourceTree = "<group>"; };
-		653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		65CB60F5F27F4A394C78F1B0F9118CE7 /* Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66346722164D01202531A928B4669C0B /* TopBottomAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopBottomAnimation.swift; path = SwiftMessages/TopBottomAnimation.swift; sourceTree = "<group>"; };
 		6B918586067ED457C133EC96C5ACA317 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C5C7DAD09C0C7DA5741D7E46AAC68F7 /* MessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageView.swift; path = SwiftMessages/MessageView.swift; sourceTree = "<group>"; };
+		6D537DE6AF03993385118B368A3EBB70 /* SwiftMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-umbrella.h"; sourceTree = "<group>"; };
+		76B8F6138B3B80A88CCDBD0011685950 /* Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = SwiftMessages/Presenter.swift; sourceTree = "<group>"; };
+		7709B654D80A086E2A7034C18F16B5B3 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C54415F642C6888CC030F9C98461B39 /* Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig"; sourceTree = "<group>"; };
+		7C82361AFE29E766F7921668C5F9772D /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftMessages.bundle; path = SwiftMessages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBE32D96E98D97641EA30C02B17BBAB /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMessages.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD43CFF1615E65E542A11DCE3D351A9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E989F99C4CB22084DDC2477CD9A923F /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = SwiftMessages/Animator.swift; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		83CE0CFC1BDCC7F36FC7672F57A4E76E /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-resources.sh"; sourceTree = "<group>"; };
+		8423B9F8394F36D34E17DB6A0166808D /* MaskingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskingView.swift; path = SwiftMessages/MaskingView.swift; sourceTree = "<group>"; };
+		86947430A8DC6DE0DEAFA3F6F7A528EE /* SwiftMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessages.swift; path = SwiftMessages/SwiftMessages.swift; sourceTree = "<group>"; };
 		87228BF6282D4182368FEEB410426DCB /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h"; sourceTree = "<group>"; };
 		87E682CDB40E02DB130F5EDF4EE0D80E /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m"; sourceTree = "<group>"; };
 		89A1EB1468BCE2960B4A65C510453656 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CDA43DC0369D5F8401DB26B1149B824 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF87BADAD19C65F38D891877965947F /* MessageViewIOS8.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageViewIOS8.xib; path = SwiftMessages/Resources/MessageViewIOS8.xib; sourceTree = "<group>"; };
 		9246F5F4DE245B25A356C029994A373C /* Pods-Kesley-Challenge-iOS-Agap2IT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9977D7612395037221B41CD617336673 /* SwiftMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftMessages.modulemap; sourceTree = "<group>"; };
+		9A6144C13F51E0D7EA92D8518A65B80C /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = SwiftMessages/Theme.swift; sourceTree = "<group>"; };
+		9BC3EF54BFB3D12242E869E099109CB6 /* SwiftMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMessages-dummy.m"; sourceTree = "<group>"; };
 		9BE74B37D2979C2AF61EB75613E1CE4E /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C6A4FE5828FE12BA10CAB76559206A0 /* CenterAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenterAnimation.swift; path = SwiftMessages/CenterAnimation.swift; sourceTree = "<group>"; };
+		9FA264B2F3A1986C2B11160CDCE8D1A8 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = SwiftMessages/Error.swift; sourceTree = "<group>"; };
 		A0DFF51B0F94AF8764B7C78E5F7CE254 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1C8F1CF9B2A0E32D5072046831EF92A /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		A567B20ABA6AC014AB9CC9962B3D7797 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m"; sourceTree = "<group>"; };
 		A62F123B2CC1C7B0297444C3257FC457 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AEAD0A84035B08E5D74861301153FF3B /* Pods-Kesley-Challenge-iOS-Agap2IT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kesley-Challenge-iOS-Agap2IT.modulemap"; sourceTree = "<group>"; };
+		B29FF17311C3815A6F78945D4DBD5016 /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = SwiftMessages/BaseView.swift; sourceTree = "<group>"; };
 		B42E61A260C2E89CBAEEB463A52E1AAD /* Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kesley-Challenge-iOS-Agap2IT-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA4F3F1CF9C457380B1737E8EDBB04D3 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SwiftMessages/Resources/Images.xcassets; sourceTree = "<group>"; };
 		BB89FA1EF02B5C060FAF27FC0A161389 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap"; sourceTree = "<group>"; };
-		BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		C6DF1A807600313563750E626B27BE0A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03CA2FD229C1484BA79F3C427256266 /* TabView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TabView.xib; path = SwiftMessages/Resources/TabView.xib; sourceTree = "<group>"; };
 		CA6A2212F603AF5DABBB7211AE54D7C1 /* Pods-Kesley-Challenge-iOS-Agap2IT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-resources.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD04C777E5E9F9FFA7C1BC2D38D7E23A /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-frameworks.sh"; sourceTree = "<group>"; };
+		CE1632FD3B07F8C478A69D656D668598 /* WindowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowViewController.swift; path = SwiftMessages/WindowViewController.swift; sourceTree = "<group>"; };
 		D8082D1D6EAE8081DD0F09514C607DAA /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-resources.sh"; sourceTree = "<group>"; };
 		DABABBB7E59A5EBFA7457C43399BB6F5 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB7DFBDD642B67987405863EDBACC4F0 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m"; sourceTree = "<group>"; };
-		E97C0CFD6499FF4CF94E96F1124D1AC9 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		DEEB1A08891C529CEBBE2A5283355452 /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = SwiftMessages/Identifiable.swift; sourceTree = "<group>"; };
+		EAF2EA770E005F0CE316B0E70FC19207 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5955AEF80EBC437ACE9EACC272FB30E /* PhysicsPanHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhysicsPanHandler.swift; path = SwiftMessages/PhysicsPanHandler.swift; sourceTree = "<group>"; };
+		F9BB2E81235E358AB7AF02DF0B64E8D7 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "SwiftMessages/UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		FA2276009BB05B601D04076B00C8F726 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FA2D044E2B2F408505FB9558A1E702E8 /* Weak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weak.swift; path = SwiftMessages/Weak.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		711A1279A9B0DBB4BE20E5B629C11182 /* Frameworks */ = {
+		1025B84BD5C127F4FCD4F27B240C01BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B59873C043558B990D8B88A484F10B8 /* Foundation.framework in Frameworks */,
+				61A5C6F2494C51795E25BE1695603E70 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		726A0BF34DA08C6EA27746C3759053E7 /* Frameworks */ = {
+		2312495CBBF8A0BA52B5B710BC52283E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF0AD0DE9543FC76A5A0459473635C7 /* Foundation.framework in Frameworks */,
+				6B0FDD3115773D7F7F82D9F54E881C8C /* Foundation.framework in Frameworks */,
+				DC8C53D974C23808870857E3E407DDA0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F90676D29E878C17DA47E8185B12AF2 /* Frameworks */ = {
+		25944863ABB6BF8092B1134BE84A29F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94950B1730956ED6463625E253E69E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60816CB00F818008C9830CA439EBFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD7EFFB7F3A04DBA15935A1A619670A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30D116EB46C9E4DEDCFC5980E3275CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB0C23BADF7497C8836D36264AC72A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06CB55E71C61376696E468A2BD6AF700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF00BC0EE43FE7914FD25D718DCC352 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */,
+				7709B654D80A086E2A7034C18F16B5B3 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */,
+				EAF2EA770E005F0CE316B0E70FC19207 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */,
+				7C82361AFE29E766F7921668C5F9772D /* SwiftMessages.bundle */,
+				7DBE32D96E98D97641EA30C02B17BBAB /* SwiftMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		072EE6240F97DC24832D6B022A1F0587 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,21 +229,76 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2BE4EFFE092A9DA7A925B1DF402E929B /* Base */ = {
+		2A04E936732363A8CC2E45F72431F606 /* SwiftMessages */ = {
 			isa = PBXGroup;
 			children = (
-				D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */,
+				2919D40D4A89CA03A714C621956290E3 /* AccessibleMessage.swift */,
+				7E989F99C4CB22084DDC2477CD9A923F /* Animator.swift */,
+				26737D2344E31A74D381236361A38DF6 /* Array+Utils.swift */,
+				27E1D0EE3C017544E56BA6104807A162 /* BackgroundViewable.swift */,
+				B29FF17311C3815A6F78945D4DBD5016 /* BaseView.swift */,
+				9C6A4FE5828FE12BA10CAB76559206A0 /* CenterAnimation.swift */,
+				9FA264B2F3A1986C2B11160CDCE8D1A8 /* Error.swift */,
+				DEEB1A08891C529CEBBE2A5283355452 /* Identifiable.swift */,
+				12930B92014750AA138D97A8E2ABF04A /* MarginAdjustable.swift */,
+				8423B9F8394F36D34E17DB6A0166808D /* MaskingView.swift */,
+				6C5C7DAD09C0C7DA5741D7E46AAC68F7 /* MessageView.swift */,
+				1B29678B64C87FEE1858790D43A9F79D /* NSBundle+Utils.swift */,
+				3490BC0D8A9DAFC8116C28F768A41E30 /* PassthroughView.swift */,
+				20D51E62FB0F5AB922FCCC5688010FEC /* PassthroughWindow.swift */,
+				F5955AEF80EBC437ACE9EACC272FB30E /* PhysicsPanHandler.swift */,
+				76B8F6138B3B80A88CCDBD0011685950 /* Presenter.swift */,
+				86947430A8DC6DE0DEAFA3F6F7A528EE /* SwiftMessages.swift */,
+				9A6144C13F51E0D7EA92D8518A65B80C /* Theme.swift */,
+				66346722164D01202531A928B4669C0B /* TopBottomAnimation.swift */,
+				F9BB2E81235E358AB7AF02DF0B64E8D7 /* UIViewController+Utils.swift */,
+				FA2D044E2B2F408505FB9558A1E702E8 /* Weak.swift */,
+				CE1632FD3B07F8C478A69D656D668598 /* WindowViewController.swift */,
+				6182B9A97FF1D5FD5D6D97AAF1E5BD74 /* Resources */,
+				EFE55B09105421AD2851ED4C8E535859 /* Support Files */,
+			);
+			name = SwiftMessages;
+			path = SwiftMessages;
+			sourceTree = "<group>";
+		};
+		2A3E3A6FA785C54D5C7D64E5FA8F5872 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAC8C193ACB99904A928FCE7D28A77 /* Frameworks */,
 			);
 			name = Base;
 			sourceTree = "<group>";
 		};
-		5E72FE505486D66241C353F0B810A506 /* GoogleMaps */ = {
+		3EE7A5185762DF8A19354A7B4E67D7AF /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				2BE4EFFE092A9DA7A925B1DF402E929B /* Base */,
+				F8523B53FBF1BB2DDB79EAF637D33817 /* Frameworks */,
+				EA85A36A1614063811872B004F5E877A /* Resources */,
 			);
-			name = GoogleMaps;
-			path = GoogleMaps;
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6182B9A97FF1D5FD5D6D97AAF1E5BD74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D3701F0554891C2B107C7AD7F1C49AF /* CardView.xib */,
+				0D9B863DC011F3838C9C40EB041C4DC5 /* CenteredView.xib */,
+				BA4F3F1CF9C457380B1737E8EDBB04D3 /* Images.xcassets */,
+				1F79421DCEE8CC6C448AF72DE1F73D6C /* MessageView.xib */,
+				8CF87BADAD19C65F38D891877965947F /* MessageViewIOS8.xib */,
+				52DF81199DA0B1AD84D98A48751F5364 /* StatusLine.xib */,
+				C03CA2FD229C1484BA79F3C427256266 /* TabView.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		72351D9382AE4BEF2C9D58579EA72B04 /* Pods-Kesley-Challenge-iOS-Agap2IT */ = {
@@ -150,59 +337,15 @@
 			path = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */,
-				A767EB16D8760B6D37C72C32EA1C124C /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E40628867DDCFB2F717D096E891E2F0A /* Pods */,
+				06CB55E71C61376696E468A2BD6AF700 /* Products */,
 				072EE6240F97DC24832D6B022A1F0587 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */ = {
-			isa = PBXGroup;
-			children = (
-				FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */,
-				8F65AED48186CC52021B01455C4C9894 /* Resources */,
-			);
-			name = GooglePlaces;
-			path = GooglePlaces;
-			sourceTree = "<group>";
-		};
-		8F65AED48186CC52021B01455C4C9894 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E97C0CFD6499FF4CF94E96F1124D1AC9 /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A767EB16D8760B6D37C72C32EA1C124C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				16238EA08E3FDAB4FB2B7E6CEE395E41 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */,
-				C6DF1A807600313563750E626B27BE0A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */,
-				28DA2357E9260CD5EE6F6CF2BA339367 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C1A1BE727730A1A2B70C4368F2148A57 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */ = {
@@ -223,27 +366,69 @@
 			path = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
 			sourceTree = "<group>";
 		};
-		D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */ = {
+		C9BAC8C193ACB99904A928FCE7D28A77 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */,
+				3290AA6E848BD6EBF6AC3C57CD560D41 /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */ = {
+		E40628867DDCFB2F717D096E891E2F0A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E72FE505486D66241C353F0B810A506 /* GoogleMaps */,
-				82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */,
+				E6E87004A71F54BA122E18AA24C9D38B /* GoogleMaps */,
+				3EE7A5185762DF8A19354A7B4E67D7AF /* GooglePlaces */,
+				2A04E936732363A8CC2E45F72431F606 /* SwiftMessages */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */ = {
+		E6E87004A71F54BA122E18AA24C9D38B /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */,
+				2A3E3A6FA785C54D5C7D64E5FA8F5872 /* Base */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA85A36A1614063811872B004F5E877A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				362F545407521529D239F8A5C56BC555 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EFE55B09105421AD2851ED4C8E535859 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E5F6ADC408C2417C01FD21B041724C /* Info.plist */,
+				4C77D334B98FE6A851C9C3D5470FE46C /* ResourceBundle-SwiftMessages-Info.plist */,
+				9977D7612395037221B41CD617336673 /* SwiftMessages.modulemap */,
+				5A4B25EB5C967F3A6DB7944A94B4CAAD /* SwiftMessages.xcconfig */,
+				9BC3EF54BFB3D12242E869E099109CB6 /* SwiftMessages-dummy.m */,
+				48F1984FEFACFF8555D3BEA51A558334 /* SwiftMessages-prefix.pch */,
+				6D537DE6AF03993385118B368A3EBB70 /* SwiftMessages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMessages";
+			sourceTree = "<group>";
+		};
+		F8523B53FBF1BB2DDB79EAF637D33817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C8F1CF9B2A0E32D5072046831EF92A /* GooglePlaces.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -251,82 +436,129 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		055E1364CC0CDF8B3034E082A53FF21C /* Headers */ = {
+		78A62BCBB56D4CA7B3A44C2066F6D7AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060CC2C9E771BF2EDF34363CCB331847 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */,
+				1795476AA3C86803D8D1361EEF53088A /* SwiftMessages-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FFF70D52024583D7D718241861E6709 /* Headers */ = {
+		9CF09E0F09EB9BA609FF44ED80FD18F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1B6C1D5DCB79F35F7F21D269BB7969 /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */,
+				7B932446F26CA317B287C2027A8ECEF2 /* Pods-Kesley-Challenge-iOS-Agap2IT-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8048F38F3507C61DA77ACA102CF09D37 /* Headers */ = {
+		BFEF5947F874F2FF3EDBD49C64593BA6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06F3A7211A8A9F8850BE614F0136FFE /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */,
+				E2E2996DA12694809AD5474FCD0D9B18 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A7FFE81D523BCC4F77EBDB8DBEF649 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2161DD3F6A5D9AEF96EC0222DE13297 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1EB955AAC291E4DDC53F015E7E3D65DD /* Pods-Kesley-Challenge-iOS-Agap2IT */ = {
+		0A97C1453158F2C6424106D9627CAA32 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9373731AF1DF01EBDE714320B1C95734 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */;
+			buildConfigurationList = 4809044E06FF8FF669EE89DD70A11D37 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */;
 			buildPhases = (
-				9BA4BBDBE312B7B8E2B18C47FBEE9343 /* Sources */,
-				726A0BF34DA08C6EA27746C3759053E7 /* Frameworks */,
-				5FFF70D52024583D7D718241861E6709 /* Headers */,
+				92238E2E1FECD0B23245CE4A02480762 /* Sources */,
+				F30D116EB46C9E4DEDCFC5980E3275CD /* Frameworks */,
+				C5A7FFE81D523BCC4F77EBDB8DBEF649 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Kesley-Challenge-iOS-Agap2IT";
-			productName = "Pods-Kesley-Challenge-iOS-Agap2IT";
-			productReference = 16238EA08E3FDAB4FB2B7E6CEE395E41 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9472E84F1A610C0B74D565586DF8AA5C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DFF6CC0875F85575798CE2F43AF0BFFB /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */;
-			buildPhases = (
-				F3A75A0642E02808170F8FA78AD1FF16 /* Sources */,
-				711A1279A9B0DBB4BE20E5B629C11182 /* Frameworks */,
-				055E1364CC0CDF8B3034E082A53FF21C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
-			productName = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
-			productReference = 28DA2357E9260CD5EE6F6CF2BA339367 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9938577ABBA5FE302753A2E540B56C6C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9624CBF5DB6214DBE9DBA61CF01FFD0 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */;
-			buildPhases = (
-				24958D4D8A011BC5ACEB0F05BAF30ACE /* Sources */,
-				7F90676D29E878C17DA47E8185B12AF2 /* Frameworks */,
-				8048F38F3507C61DA77ACA102CF09D37 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				210D02B48B90138FC84D4B807C2575CA /* PBXTargetDependency */,
 			);
 			name = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests";
 			productName = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests";
-			productReference = C6DF1A807600313563750E626B27BE0A /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */;
+			productReference = 7709B654D80A086E2A7034C18F16B5B3 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58CC2FEC4FEC05462FDCFB0E8C0AAC9A /* SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF787703650FA54734B98E94DAF3DE6 /* Build configuration list for PBXNativeTarget "SwiftMessages" */;
+			buildPhases = (
+				C062E6FFB3AF9166348685DBC476B5A1 /* Sources */,
+				2312495CBBF8A0BA52B5B710BC52283E /* Frameworks */,
+				59327251BBFD6D77441F9A2E0331BAD5 /* Resources */,
+				78A62BCBB56D4CA7B3A44C2066F6D7AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97325CCB9E142E42D25D31DFAA65D384 /* PBXTargetDependency */,
+			);
+			name = SwiftMessages;
+			productName = SwiftMessages;
+			productReference = 7DBE32D96E98D97641EA30C02B17BBAB /* SwiftMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C28B34D1DC2A2BD3689EBC93628F8444 /* Pods-Kesley-Challenge-iOS-Agap2IT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725F2D3DD3670DC1F91616B0B53C13A3 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */;
+			buildPhases = (
+				E56877C5DA64CBB9AFD02D46F6FFF59B /* Sources */,
+				1025B84BD5C127F4FCD4F27B240C01BA /* Frameworks */,
+				9CF09E0F09EB9BA609FF44ED80FD18F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623F2C0FDB608773A9B25954099F9C66 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kesley-Challenge-iOS-Agap2IT";
+			productName = "Pods-Kesley-Challenge-iOS-Agap2IT";
+			productReference = 4EF00BC0EE43FE7914FD25D718DCC352 /* Pods_Kesley_Challenge_iOS_Agap2IT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDD8000B54EF4B6387F96FCBFFBE1DA2 /* SwiftMessages-SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEA71C06DADDFD480E1663289AB85A7 /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */;
+			buildPhases = (
+				3722D9D92107E3883762F2C16C3167B5 /* Sources */,
+				25944863ABB6BF8092B1134BE84A29F4 /* Frameworks */,
+				41CFED8D8144EA8693C8D573740CABA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftMessages-SwiftMessages";
+			productName = "SwiftMessages-SwiftMessages";
+			productReference = 7C82361AFE29E766F7921668C5F9772D /* SwiftMessages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EA04036E6A421DC606B84200F22EEC16 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D64CBFA9CA80639723CC22BC8B98B3 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */;
+			buildPhases = (
+				840048BE3D71BA0A77DE8AF0F82ECDEC /* Sources */,
+				B60816CB00F818008C9830CA439EBFD3 /* Frameworks */,
+				BFEF5947F874F2FF3EDBD49C64593BA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77CDBE30AE7AABEDC11C44B0A3E2993F /* PBXTargetDependency */,
+			);
+			name = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
+			productName = "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests";
+			productReference = EAF2EA770E005F0CE316B0E70FC19207 /* Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,46 +578,221 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A767EB16D8760B6D37C72C32EA1C124C /* Products */;
+			productRefGroup = 06CB55E71C61376696E468A2BD6AF700 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EB955AAC291E4DDC53F015E7E3D65DD /* Pods-Kesley-Challenge-iOS-Agap2IT */,
-				9938577ABBA5FE302753A2E540B56C6C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */,
-				9472E84F1A610C0B74D565586DF8AA5C /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */,
+				C28B34D1DC2A2BD3689EBC93628F8444 /* Pods-Kesley-Challenge-iOS-Agap2IT */,
+				0A97C1453158F2C6424106D9627CAA32 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests */,
+				EA04036E6A421DC606B84200F22EEC16 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests */,
+				58CC2FEC4FEC05462FDCFB0E8C0AAC9A /* SwiftMessages */,
+				CDD8000B54EF4B6387F96FCBFFBE1DA2 /* SwiftMessages-SwiftMessages */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		41CFED8D8144EA8693C8D573740CABA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311E13E55EFC5E8D31C1207DC1217D9E /* CardView.xib in Resources */,
+				CFEAA5792B9DD0A35DDC896B22B6DDB7 /* CenteredView.xib in Resources */,
+				933D3B5CA4346BB49C1962C81715AF54 /* Images.xcassets in Resources */,
+				9BAAB8A28B1BBB2AFBC61F66670D5D18 /* MessageView.xib in Resources */,
+				DB38FDE6D7B06D946D7B04B8E6DA930D /* MessageViewIOS8.xib in Resources */,
+				CD4E0D1732D18FE88B429D0930491932 /* StatusLine.xib in Resources */,
+				235F22E8D1ADBE9D9BBBCE01E2153058 /* TabView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59327251BBFD6D77441F9A2E0331BAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D6AE0EF4903AE6613B74BB9120A9CF /* SwiftMessages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		24958D4D8A011BC5ACEB0F05BAF30ACE /* Sources */ = {
+		3722D9D92107E3883762F2C16C3167B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4E5C5300DA12A806D8F7BA32F82E68 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BA4BBDBE312B7B8E2B18C47FBEE9343 /* Sources */ = {
+		840048BE3D71BA0A77DE8AF0F82ECDEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48350E173A8AA6F8E675BBDE2294E10 /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */,
+				19720F6A05A2BA71741AD82365CCA375 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3A75A0642E02808170F8FA78AD1FF16 /* Sources */ = {
+		92238E2E1FECD0B23245CE4A02480762 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E4B387FA3FF9AF26EC1E6A13DF8637 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests-dummy.m in Sources */,
+				06456B9166FF9ABE60F059076E744DDD /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C062E6FFB3AF9166348685DBC476B5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4B6A0EC53666D038904628F14D088A /* AccessibleMessage.swift in Sources */,
+				74BBB0E06180CBF3F170A3E161DCA371 /* Animator.swift in Sources */,
+				0001670DF9C0B3528B647BE205628376 /* Array+Utils.swift in Sources */,
+				6927DE7427FCEBAC4B4AC548CF1C1BC5 /* BackgroundViewable.swift in Sources */,
+				D60590CD10BC9B5892E2387FE71A08DA /* BaseView.swift in Sources */,
+				8BE656F8DE0425DCC7583C5DF886FF61 /* CenterAnimation.swift in Sources */,
+				1ED73F68A6AF18D83A5EA539EE9C630A /* Error.swift in Sources */,
+				2F7C08058C44F8FE70B0831929BFC16A /* Identifiable.swift in Sources */,
+				1D2D8CE505C9BF41851E20DAEB4E5A33 /* MarginAdjustable.swift in Sources */,
+				3B29294EF7A04B0195D8A7087E5B8F25 /* MaskingView.swift in Sources */,
+				9F7DD7D175A1CFB7D44A884A1FB348F5 /* MessageView.swift in Sources */,
+				1464EC142F3703142F875B1F4E9F0BB4 /* NSBundle+Utils.swift in Sources */,
+				BCC54310DDEDE840CE0F3584FFED7DA7 /* PassthroughView.swift in Sources */,
+				6830B04199E27ED41F64BD69D779BF88 /* PassthroughWindow.swift in Sources */,
+				B53BCEA8AA6F2AEDFFD2581E8ABBF8ED /* PhysicsPanHandler.swift in Sources */,
+				1D6F3C496DBC2DD34DE39725A613DCA0 /* Presenter.swift in Sources */,
+				69C32A37B8F9D98FC4A7E263C8BC4B04 /* SwiftMessages-dummy.m in Sources */,
+				80122E27F5FD604ACEC3FAEEC6603FD2 /* SwiftMessages.swift in Sources */,
+				38EB69CF0B68C98E69BCBE737130C238 /* Theme.swift in Sources */,
+				BAFA56D51BC9F4B3AD61FD447D3D95D7 /* TopBottomAnimation.swift in Sources */,
+				5B31475273513CC3E7E6737089C92CF3 /* UIViewController+Utils.swift in Sources */,
+				0484CBD7E1A92C3E6FF9B00E71A6F081 /* Weak.swift in Sources */,
+				CC0DB54BAB7D9B1587F65BC3D69398DF /* WindowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56877C5DA64CBB9AFD02D46F6FFF59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53B8A1A44ADFF3B088951EC31099342 /* Pods-Kesley-Challenge-iOS-Agap2IT-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		210D02B48B90138FC84D4B807C2575CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = 58CC2FEC4FEC05462FDCFB0E8C0AAC9A /* SwiftMessages */;
+			targetProxy = 17BC50D25D48345BE4BC0B0266BB25A5 /* PBXContainerItemProxy */;
+		};
+		623F2C0FDB608773A9B25954099F9C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = 58CC2FEC4FEC05462FDCFB0E8C0AAC9A /* SwiftMessages */;
+			targetProxy = BD2E6BBF8E28CB99AEF84A2DC40F3EDC /* PBXContainerItemProxy */;
+		};
+		77CDBE30AE7AABEDC11C44B0A3E2993F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = 58CC2FEC4FEC05462FDCFB0E8C0AAC9A /* SwiftMessages */;
+			targetProxy = 7970CB8787701A31835B6DD911328FAC /* PBXContainerItemProxy */;
+		};
+		97325CCB9E142E42D25D31DFAA65D384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftMessages-SwiftMessages";
+			target = CDD8000B54EF4B6387F96FCBFFBE1DA2 /* SwiftMessages-SwiftMessages */;
+			targetProxy = 1B0B935FD7630C13BC00E6938114C383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0741DB0BA6AE4C6EC8B8C7BA948FE81C /* Debug */ = {
+		03F0ECA0AB82F0DAA20A9D320F3EC2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4B25EB5C967F3A6DB7944A94B4CAAD /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F9EAD153BD94182FBE6DC2FC5B5EB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD43CFF1615E65E542A11DCE3D351A9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24A1F9C8ECE92BECAD0C01C99D59D2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4B25EB5C967F3A6DB7944A94B4CAAD /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		523D6A73BE8E751021B4008B870FACDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3213BB96B2F196AADAB14F5870261F78 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.debug.xcconfig */;
 			buildSettings = {
@@ -414,46 +821,12 @@
 				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		0B1205C857CE54F63707C8BE9E0401E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C54415F642C6888CC030F9C98461B39 /* Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Pods-Kesley-Challenge-iOS-Agap2IT.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -499,79 +872,26 @@
 			};
 			name = Debug;
 		};
-		81E0325A90FE9FFF4F930E856078DFB2 /* Release */ = {
+		62170A9813CD3ED82A9FCAF1BDC379EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD43CFF1615E65E542A11DCE3D351A9 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.release.xcconfig */;
+			baseConfigurationReference = 5A4B25EB5C967F3A6DB7944A94B4CAAD /* SwiftMessages.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITTests;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		AC2030BC326FF3867B699F8CC893A0D9 /* Release */ = {
+		9004DBEF7ED19949F81DFB2199BCE4E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A62F123B2CC1C7B0297444C3257FC457 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B62B81821C7EC17EE99F83AD00FC1530 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DABABBB7E59A5EBFA7457C43399BB6F5 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.debug.xcconfig */;
+			baseConfigurationReference = 3378211E4C78180360FE124B27246933 /* Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -584,25 +904,61 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Pods-Kesley-Challenge-iOS-Agap2IT.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests;
+				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8D6E6A76C2B0CC829F576DF9DC2735F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C54415F642C6888CC030F9C98461B39 /* Pods-Kesley-Challenge-iOS-Agap2IT.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Pods-Kesley-Challenge-iOS-Agap2IT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -644,9 +1000,9 @@
 			};
 			name = Release;
 		};
-		C8C02396AF380363B5C1FA7D59A7DF18 /* Debug */ = {
+		CF05131F4D56FD465A4EDE704426278E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3378211E4C78180360FE124B27246933 /* Pods-Kesley-Challenge-iOS-Agap2IT.debug.xcconfig */;
+			baseConfigurationReference = DABABBB7E59A5EBFA7457C43399BB6F5 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -659,20 +1015,89 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT/Pods-Kesley-Challenge-iOS-Agap2IT.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT;
+				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2D895CD3A8CD0C2F13F5E2D895DCA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62F123B2CC1C7B0297444C3257FC457 /* Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests/Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kesley_Challenge_iOS_Agap2IT_Kesley_Challenge_iOS_Agap2ITUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB9185B6C38CD89B161D2BA337B8774B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4B25EB5C967F3A6DB7944A94B4CAAD /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -691,29 +1116,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9373731AF1DF01EBDE714320B1C95734 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */ = {
+		4809044E06FF8FF669EE89DD70A11D37 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8C02396AF380363B5C1FA7D59A7DF18 /* Debug */,
-				0B1205C857CE54F63707C8BE9E0401E1 /* Release */,
+				523D6A73BE8E751021B4008B870FACDA /* Debug */,
+				1F9EAD153BD94182FBE6DC2FC5B5EB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFF6CC0875F85575798CE2F43AF0BFFB /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */ = {
+		6AF787703650FA54734B98E94DAF3DE6 /* Build configuration list for PBXNativeTarget "SwiftMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B62B81821C7EC17EE99F83AD00FC1530 /* Debug */,
-				AC2030BC326FF3867B699F8CC893A0D9 /* Release */,
+				FB9185B6C38CD89B161D2BA337B8774B /* Debug */,
+				03F0ECA0AB82F0DAA20A9D320F3EC2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9624CBF5DB6214DBE9DBA61CF01FFD0 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITTests" */ = {
+		725F2D3DD3670DC1F91616B0B53C13A3 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0741DB0BA6AE4C6EC8B8C7BA948FE81C /* Debug */,
-				81E0325A90FE9FFF4F930E856078DFB2 /* Release */,
+				9004DBEF7ED19949F81DFB2199BCE4E3 /* Debug */,
+				A8D6E6A76C2B0CC829F576DF9DC2735F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEA71C06DADDFD480E1663289AB85A7 /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62170A9813CD3ED82A9FCAF1BDC379EF /* Debug */,
+				24A1F9C8ECE92BECAD0C01C99D59D2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D64CBFA9CA80639723CC22BC8B98B3 /* Build configuration list for PBXNativeTarget "Pods-Kesley-Challenge-iOS-Agap2IT-Kesley-Challenge-iOS-Agap2ITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF05131F4D56FD465A4EDE704426278E /* Debug */,
+				E2D895CD3A8CD0C2F13F5E2D895DCA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

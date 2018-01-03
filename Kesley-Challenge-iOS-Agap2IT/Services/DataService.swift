@@ -23,6 +23,8 @@ protocol DataServiceDelegate: class {
 }
 
 class DataService {
+    
+    var showAlerts = Alerts()
 
     static let instance = DataService()
 
@@ -42,7 +44,9 @@ class DataService {
             
             // Error
             if error != nil {
-                print("\nError while try request: \(String(describing: error))")
+                // Show the alert in the view
+                self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to request data! Try again!", tipoAlerta: 2)
+                print("\nError while trying request: \(String(describing: error))")
                 completion(.error(error!))
             }
             
@@ -56,13 +60,21 @@ class DataService {
                     
                     // Secure way to declare new var that will store JSON Data
                     guard let parsedJSON = JSON_DATA else {
+                        
+                        // Show the alert in the view
+                        self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get data! Try again!", tipoAlerta: 2)
                         print("\nError while try to get data!")
+                        
                         return
                     }
 
                     // Secure way to declare new var that will store JSON Data
                     guard let placesJSON = parsedJSON["predictions"] else {
+                        
+                        // Show the alert in the view
+                        self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get predictions data! Try again!", tipoAlerta: 2)
                         print("\nError while try to get data predictions")
+                        
                         return
                     }
                     
@@ -70,6 +82,9 @@ class DataService {
                     
                 } catch {
                     print("\nError: \(error)")
+                    
+                    // Show the alert in the view
+                    self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get data! Try again!", tipoAlerta: 2)
                     completion(.error(error))
                 }
             }
@@ -77,10 +92,14 @@ class DataService {
     }
     
     // Get info details place
-    func getDetailsPlace(completion: @escaping ReturnInfoDetailsPlace) {
+    func getDetailsPlace(placeID: String, completion: @escaping ReturnInfoDetailsPlace) {
         
+        var addss: String = ""
+        var lat: String = ""
+        var long: String = ""
+
         // Declaring URL of json
-        let URL = NSURL(string: "\(DETAIL_BASE_URL)\(PLACE_ID)&key=\(API_KEY)")!
+        let URL = NSURL(string: "\(DETAIL_BASE_URL)\(placeID)&key=\(API_KEY)")!
         
         // Declaring request of URL
         let request = NSMutableURLRequest(url: URL as URL)
@@ -90,7 +109,9 @@ class DataService {
             
             // Error
             if error != nil {
-                print("\nError while try request: \(String(describing: error))")
+                // Show the alert in the view
+                self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to request data! Try again!", tipoAlerta: 2)
+                print("\nError while trying request: \(String(describing: error))")
             }
             
             // Use the main queue to exec
@@ -107,31 +128,43 @@ class DataService {
                         
                         // Get address place
                         if let address = result["formatted_address"] as? String {
-                            print("\n\nADDRESS: \(address)")
+                            addss = address
+                        } else {
+                            // Show the alert in the view
+                            self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get address! Try again!", tipoAlerta: 2)
                         }
 
                         if let geometry = result["geometry"] as? [String:Any] {
                             if let location = geometry["location"] as? [String:Any] {
-                                
+
                                 // Get latitude place
                                 guard let latitude = location["lat"] else {
+                                    
+                                    // Show the alert in the view
+                                    self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get latitude! Try again!", tipoAlerta: 2)
                                     print("\nError while try to get latitude")
                                     return
                                 }
-                                print("\n\nLatitude: \(latitude)")
+                                lat = String(describing: latitude)
 
                                 // Get longitude place
                                 guard let longitude = location["lng"] else {
+                                    
+                                    // Show the alert in the view
+                                    self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get longitude! Try again!", tipoAlerta: 2)
                                     print("\nError while try to get longitude")
                                     return
                                 }
-                                print("\n\nLongitude: \(longitude)")
+                                long = String(describing: longitude)
                             }
                         }
+                        completion(.success([addss, lat, long]))
                     }
                 }
                 catch {
-                    print("\nError: \(String(describing: error))")
+                    // Show the alert in the view
+                    self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to request data! Try again!", tipoAlerta: 2)
+                    print("\nError while trying request: \(String(describing: error))")
                 }
             }
         }.resume()
