@@ -19,13 +19,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="PlaceVC" customModule="Kesley_Challenge_iOS_Agap2IT" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="Kesley_Challenge_iOS_Agap2IT" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-image" translatesAutoresizingMaskIntoConstraints="NO" id="guv-0t-WV1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <searchBar contentMode="redraw" placeholder="Search a place. E.g. Goiânia" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elL-ap-OhG">
                                 <rect key="frame" x="0.0" y="20" width="320" height="56"/>
                                 <constraints>
@@ -59,8 +56,6 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="7" right="8"/>
-                                <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" rowHeight="50" id="DdZ-xB-FKd" customClass="PlaceCell" customModule="Kesley_Challenge_iOS_Agap2IT" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="1" width="280" height="50"/>
@@ -123,15 +118,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m6t-pY-ghg" secondAttribute="trailing" constant="20" id="M0J-TB-8eo"/>
                             <constraint firstItem="elL-ap-OhG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mkc-0l-VXw"/>
                             <constraint firstItem="rAn-jF-lcL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bHc-2v-zMA"/>
-                            <constraint firstItem="guv-0t-WV1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fan-aK-j2j"/>
                             <constraint firstItem="rAn-jF-lcL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h8b-p6-rDb"/>
-                            <constraint firstItem="guv-0t-WV1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iNX-KH-LQi"/>
-                            <constraint firstItem="guv-0t-WV1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iZF-Ng-WzL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m6t-pY-ghg" secondAttribute="bottom" constant="20" id="lXi-2E-ZZh"/>
                             <constraint firstItem="elL-ap-OhG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ohc-dI-gkr"/>
                             <constraint firstItem="guJ-rg-aHm" firstAttribute="top" secondItem="rAn-jF-lcL" secondAttribute="bottom" constant="15" id="tKz-FP-XMd"/>
                             <constraint firstItem="guJ-rg-aHm" firstAttribute="centerX" secondItem="rAn-jF-lcL" secondAttribute="centerX" id="tyk-Fo-Pfn"/>
-                            <constraint firstItem="guv-0t-WV1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vLO-oa-DUf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -154,13 +145,10 @@
         <scene sceneID="BjK-U9-eQq">
             <objects>
                 <viewController id="nSp-B3-LXY" customClass="DetailsPlaceVC" customModule="Kesley_Challenge_iOS_Agap2IT" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dtg-7O-HRC">
+                    <view key="view" contentMode="scaleToFill" id="dtg-7O-HRC" customClass="GradientView" customModule="Kesley_Challenge_iOS_Agap2IT" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-image" translatesAutoresizingMaskIntoConstraints="NO" id="MXO-c3-Xyc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXb-A7-Y6x">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
                                 <subviews>
@@ -215,15 +203,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pw2-TE-0ZX" firstAttribute="trailing" secondItem="klf-Qy-moI" secondAttribute="trailing" constant="10" id="5BK-sB-l6D"/>
-                            <constraint firstItem="MXO-c3-Xyc" firstAttribute="top" secondItem="dtg-7O-HRC" secondAttribute="top" id="7UJ-7h-6pR"/>
-                            <constraint firstItem="MXO-c3-Xyc" firstAttribute="trailing" secondItem="pw2-TE-0ZX" secondAttribute="trailing" id="9YS-kL-Kk7"/>
                             <constraint firstItem="klf-Qy-moI" firstAttribute="top" secondItem="eXb-A7-Y6x" secondAttribute="bottom" constant="10" id="Di4-d7-XPs"/>
                             <constraint firstItem="I1h-EX-t4h" firstAttribute="leading" secondItem="pw2-TE-0ZX" secondAttribute="leading" constant="10" id="IqS-Jl-acz"/>
-                            <constraint firstItem="MXO-c3-Xyc" firstAttribute="leading" secondItem="pw2-TE-0ZX" secondAttribute="leading" id="NeN-is-Nr1"/>
                             <constraint firstItem="pw2-TE-0ZX" firstAttribute="bottom" secondItem="I1h-EX-t4h" secondAttribute="bottom" constant="10" id="OnA-v4-pBm"/>
                             <constraint firstItem="I1h-EX-t4h" firstAttribute="top" secondItem="LqC-qf-YmU" secondAttribute="bottom" constant="10" id="Opx-10-9ye"/>
                             <constraint firstItem="LqC-qf-YmU" firstAttribute="leading" secondItem="pw2-TE-0ZX" secondAttribute="leading" constant="10" id="SZr-yn-fdE"/>
-                            <constraint firstItem="MXO-c3-Xyc" firstAttribute="bottom" secondItem="pw2-TE-0ZX" secondAttribute="bottom" id="UOR-8F-ptY"/>
                             <constraint firstItem="eXb-A7-Y6x" firstAttribute="leading" secondItem="pw2-TE-0ZX" secondAttribute="leading" id="p5T-tZ-o1B"/>
                             <constraint firstItem="eXb-A7-Y6x" firstAttribute="trailing" secondItem="pw2-TE-0ZX" secondAttribute="trailing" id="pVh-qB-cVO"/>
                             <constraint firstItem="pw2-TE-0ZX" firstAttribute="trailing" secondItem="I1h-EX-t4h" secondAttribute="trailing" constant="10" id="quO-G2-02h"/>
@@ -244,7 +228,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background-image" width="190" height="190"/>
         <image name="geoIcon" width="71" height="71"/>
     </resources>
 </document>
