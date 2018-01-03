@@ -167,8 +167,8 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n60-1k-rmc">
                                         <rect key="frame" x="8" y="37" width="35" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="eWa-c9-s4c"/>
-                                            <constraint firstAttribute="width" constant="35" id="gLJ-c3-zKP"/>
+                                            <constraint firstAttribute="height" constant="30" id="lh2-U9-HaH"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="wZk-Nw-CR4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                         <state key="normal" title="Back">
@@ -187,11 +187,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.27714576198630131" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="88e-ZE-jpw" firstAttribute="centerY" secondItem="n60-1k-rmc" secondAttribute="centerY" id="NEC-dw-BbT"/>
+                                    <constraint firstAttribute="bottom" secondItem="n60-1k-rmc" secondAttribute="bottom" constant="8" id="NeM-vF-lG6"/>
                                     <constraint firstAttribute="height" constant="75" id="O1V-Zv-pQE"/>
-                                    <constraint firstAttribute="bottom" secondItem="n60-1k-rmc" secondAttribute="bottom" constant="8" id="Qpk-f0-tgu"/>
-                                    <constraint firstItem="n60-1k-rmc" firstAttribute="leading" secondItem="eXb-A7-Y6x" secondAttribute="leading" constant="8" id="VUd-Yo-oF2"/>
+                                    <constraint firstItem="88e-ZE-jpw" firstAttribute="centerY" secondItem="n60-1k-rmc" secondAttribute="centerY" id="kq2-tg-Q8T"/>
+                                    <constraint firstItem="n60-1k-rmc" firstAttribute="leading" secondItem="eXb-A7-Y6x" secondAttribute="leading" constant="8" id="m6d-Xv-DvD"/>
                                     <constraint firstItem="88e-ZE-jpw" firstAttribute="centerX" secondItem="eXb-A7-Y6x" secondAttribute="centerX" id="v3i-5v-6PT"/>
+                                    <constraint firstItem="n60-1k-rmc" firstAttribute="leading" secondItem="eXb-A7-Y6x" secondAttribute="leading" constant="8" id="xMv-bD-g9a"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klf-Qy-moI" userLabel="descriptionPlace">

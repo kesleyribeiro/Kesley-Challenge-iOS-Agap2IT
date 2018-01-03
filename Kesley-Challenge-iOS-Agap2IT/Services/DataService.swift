@@ -13,11 +13,25 @@ enum Result<T> {
     case error(Error)
 }
 
+struct Location {
+    
+    var addss: String
+    var lat: String
+    var long: String
+    
+    init(adds: String, lat: String, long: String) {
+        self.addss = adds
+        self.lat = lat
+        self.long = long
+    }
+    
+}
+
 typealias ReturnInfoPlace = (Result<[AnyObject]>) -> Void
-typealias ReturnInfoDetailsPlace = (Result<[String]>) -> Void
+typealias ReturnInfoDetailsPlace = (Result<Location>) -> Void
 
 protocol DataServiceDelegate: class {
-
+    
     func getInfoPlace()
     func getDetailsPlace()
 }
@@ -25,14 +39,14 @@ protocol DataServiceDelegate: class {
 class DataService {
     
     var showAlerts = Alerts()
-
+    
     static let instance = DataService()
-
+    
     weak var delegate: DataServiceDelegate?
-
+    
     // Get info place
     func getInfoPlace(textEnteredByUser: String, completion: @escaping ReturnInfoPlace) {
-
+        
         // Declaring URL of json
         let URL = NSURL(string: "\(BASE_URL)\(textEnteredByUser)&\(OPTIONAL_PARAMETER)=\(VALUE_PARAMETER)&key=\(API_KEY)")!
         
@@ -52,9 +66,10 @@ class DataService {
             
             // Use the main queue to exec
             DispatchQueue.main.sync {
-
+                
                 // Get JSON Data
                 do {
+                    
                     // Declaring new var to store JSON Data
                     let JSON_DATA = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? NSDictionary
                     
@@ -67,7 +82,7 @@ class DataService {
                         
                         return
                     }
-
+                    
                     // Secure way to declare new var that will store JSON Data
                     guard let placesJSON = parsedJSON["predictions"] else {
                         
@@ -77,7 +92,7 @@ class DataService {
                         
                         return
                     }
-                    
+
                     completion(.success(placesJSON as! [AnyObject]))
                     
                 } catch {
@@ -97,7 +112,7 @@ class DataService {
         var addss: String = ""
         var lat: String = ""
         var long: String = ""
-
+        
         // Declaring URL of json
         let URL = NSURL(string: "\(DETAIL_BASE_URL)\(placeID)&key=\(API_KEY)")!
         
@@ -119,11 +134,12 @@ class DataService {
                 
                 // Get JSON Data
                 do {
+                    
                     // Declaring new var to store JSON Data
                     let JSON_DATA = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers)
-
+                    
                     guard let json = JSON_DATA as? [String: Any] else { return }
-
+                    
                     if let result = json["result"] as? [String:Any] {
                         
                         // Get address place
@@ -133,10 +149,10 @@ class DataService {
                             // Show the alert in the view
                             self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get address! Try again!", tipoAlerta: 2)
                         }
-
+                        
                         if let geometry = result["geometry"] as? [String:Any] {
                             if let location = geometry["location"] as? [String:Any] {
-
+                                
                                 // Get latitude place
                                 guard let latitude = location["lat"] else {
                                     
@@ -146,7 +162,7 @@ class DataService {
                                     return
                                 }
                                 lat = String(describing: latitude)
-
+                                
                                 // Get longitude place
                                 guard let longitude = location["lng"] else {
                                     
@@ -158,7 +174,8 @@ class DataService {
                                 long = String(describing: longitude)
                             }
                         }
-                        completion(.success([addss, lat, long]))
+                        let location = Location(adds: addss, lat: lat, long: long)
+                        completion(.success(location))
                     }
                 }
                 catch {
@@ -169,6 +186,5 @@ class DataService {
             }
         }.resume()
     }
-
+    
 }
-

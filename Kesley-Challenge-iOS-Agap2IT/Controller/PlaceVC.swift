@@ -23,21 +23,10 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
     // First load func
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Start activity indicator
-        myActivityIndicator.startAnimating()
         
-        // Creating connections to access protocols of DataSource and Delegate
-        placeTblView.dataSource = self
-        placeTblView.delegate = self
-
-        // Config the row height in the table view and auto dimension when necessary
-        placeTblView.estimatedRowHeight = 50
-        placeTblView.rowHeight = UITableViewAutomaticDimension
-
-        // Start with table view hidden because it does not have any search results
-        placeTblView.isHidden = true
-
+        // Call function
+        startUI()
+        
         // This code withdrawn in: https://stackoverflow.com/questions/24529373/tableview-scroll-content-when-keyboard-shows
         // Called when keyboard is show
         NotificationCenter.default.addObserver(self, selector: #selector(PlaceVC.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
@@ -51,6 +40,22 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         PLACE_ID.removeAll()
+    }
+
+    func startUI() {
+        // Start activity indicator
+        myActivityIndicator.startAnimating()
+        
+        // Creating connections to access protocols of DataSource and Delegate
+        placeTblView.dataSource = self
+        placeTblView.delegate = self
+        
+        // Config the row height in the table view and auto dimension when necessary
+        placeTblView.estimatedRowHeight = 50
+        placeTblView.rowHeight = UITableViewAutomaticDimension
+        
+        // Start with table view hidden because it does not have any search results
+        placeTblView.isHidden = true
     }
 
     // This method withdrawn in: https://stackoverflow.com/questions/24529373/tableview-scroll-content-when-keyboard-shows
@@ -153,6 +158,7 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         // Remove all data in the placesArray (= 0)
         allPlacesArray.removeAll()
 
+        // Call function
         cofigHideTblView()
     }
     
@@ -177,6 +183,7 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         } // Text entered - no empty
         else {
             
+            // Call function
             cofigShowTblView()
 
             // Save in the var the text entered by the user
@@ -198,6 +205,7 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
     
     // Config used when is necessary show the tableView, hide the noResult label and stop animation
     func cofigShowTblView() {
+
         // Show the table view
         placeTblView.isHidden = false
         
@@ -210,6 +218,7 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
     
     // Config used when is necessary hide he tableView, show the noResult label and start animation
     func cofigHideTblView() {
+
         // Hide the table view
         placeTblView.isHidden = true
         
@@ -219,7 +228,7 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         // Start activity indicator
         myActivityIndicator.startAnimating()
     }
-    
+
     // Hide the keyboard and *Cancel button when user touch the view
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         

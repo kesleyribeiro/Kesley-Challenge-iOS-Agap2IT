@@ -10,19 +10,19 @@ import UIKit
 import MapKit
 
 class DetailsPlaceVC: UIViewController {
-
+    
     // UI objs
     @IBOutlet weak var addressLbl: UILabel!
     @IBOutlet weak var mapPlace: MKMapView!
     
     // Code obj
-    var allDetailsPlacesArray = [AnyObject]()
+    var location: Location?
     var showAlerts = Alerts()
-
+    
     // First load func
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Extras config label
         addressLbl.numberOfLines = 0
         addressLbl.lineBreakMode = .byWordWrapping
@@ -40,7 +40,7 @@ class DetailsPlaceVC: UIViewController {
     @IBAction func backBtn(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-
+    
     // Get detais place passing the place id
     func getDetailsPlace(placeID: String) {
         
@@ -50,17 +50,15 @@ class DetailsPlaceVC: UIViewController {
             case .success(let details):
                 
                 // Save details in allDetailsPlacesArray
-                self.allDetailsPlacesArray = details as [AnyObject]
-                
-                let lat = self.allDetailsPlacesArray[1]
-                let long = self.allDetailsPlacesArray[2]
+                self.location = details
 
                 // Save address and show in the UI
-                let address = self.allDetailsPlacesArray[0]
-                self.addressLbl.text = address as? String
+                let address = self.location?.addss
+                self.addressLbl.text = address
                 
+                // Call function
                 self.openMapForPlace()
-
+                
             case .error(let error):
                 // Show the alert in the view
                 self.showAlerts.exibirAlertaPersonalizado("There was an error while trying to get data! Try again!", tipoAlerta: 2)
@@ -69,27 +67,26 @@ class DetailsPlaceVC: UIViewController {
         }
     }
     
+    // Load map infos
     func openMapForPlace() {
         
-        let lat = self.allDetailsPlacesArray[1]
-        let long = self.allDetailsPlacesArray[2]
-        
-        print(lat, long)
+        let lat = self.location?.lat
+        let long = self.location?.long
         
         let location = CLLocationCoordinate2D(
-            latitude: lat as! CLLocationDegrees,
-            longitude: long as! CLLocationDegrees
+            latitude: Double(lat ?? "0.0") ?? 0.0,
+            longitude: Double(long ?? "0.0") ?? 0.0
         )
         
-        let span = MKCoordinateSpanMake(0.5, 0.5)
+        let span = MKCoordinateSpanMake(0.3, 0.3)
         let region = MKCoordinateRegion(center: location, span: span)
         
         mapPlace.setRegion(region, animated: true)
         
         let annotation = MKPointAnnotation()
         annotation.coordinate = location
-
+        
         mapPlace.addAnnotation(annotation)
     }
-
+    
 }
