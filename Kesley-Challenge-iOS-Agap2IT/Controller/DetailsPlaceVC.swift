@@ -33,7 +33,7 @@ class DetailsPlaceVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         print("\n\nPLACE ID: \(PLACE_ID)")
-        DataService.instance.getDetailsPlace()
+        DataService.instance.getDetailsPlace(completion: <#ReturnInfoDetailsPlace#>)
     }
     
     // Function back button

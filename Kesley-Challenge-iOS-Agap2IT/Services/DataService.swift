@@ -38,7 +38,7 @@ class DataService {
         let request = NSMutableURLRequest(url: URL as URL)
         
         // Executing request
-        URLSession.shared.dataTask(with: request as URLRequest) { (data:Data?, response:URLResponse?, error:Error?) in
+        URLSession.shared.dataTask(with: request as URLRequest) { (data, response, error) in
             
             // Error
             if error != nil {
@@ -77,7 +77,7 @@ class DataService {
     }
     
     // Get info details place
-    func getDetailsPlace() {
+    func getDetailsPlace(completion: @escaping ReturnInfoDetailsPlace) {
         
         // Declaring URL of json
         let URL = NSURL(string: "\(DETAIL_BASE_URL)\(PLACE_ID)&key=\(API_KEY)")!
@@ -86,7 +86,7 @@ class DataService {
         let request = NSMutableURLRequest(url: URL as URL)
         
         // Executing request
-        URLSession.shared.dataTask(with: request as URLRequest) { (data:Data?, response:URLResponse?, error:Error?) in
+        URLSession.shared.dataTask(with: request as URLRequest) { (data, response, error) in
             
             // Error
             if error != nil {
@@ -103,14 +103,35 @@ class DataService {
 
                     guard let json = JSON_DATA as? [String: Any] else { return }
 
-                    if let result = json["result"] {
-                        print("\nResult: \(result)")
-                    } else {
-                        print("\nErro!!!")
+                    if let result = json["result"] as? [String:Any] {
+                        
+                        // Get address place
+                        if let address = result["formatted_address"] as? String {
+                            print("\n\nADDRESS: \(address)")
+                        }
+
+                        if let geometry = result["geometry"] as? [String:Any] {
+                            if let location = geometry["location"] as? [String:Any] {
+                                
+                                // Get latitude place
+                                guard let latitude = location["lat"] else {
+                                    print("\nError while try to get latitude")
+                                    return
+                                }
+                                print("\n\nLatitude: \(latitude)")
+
+                                // Get longitude place
+                                guard let longitude = location["lng"] else {
+                                    print("\nError while try to get longitude")
+                                    return
+                                }
+                                print("\n\nLongitude: \(longitude)")
+                            }
+                        }
                     }
-                    
-                } catch {
-                    print("\nError: \(error)")
+                }
+                catch {
+                    print("\nError: \(String(describing: error))")
                 }
             }
         }.resume()
