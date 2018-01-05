@@ -11,10 +11,9 @@ import UIKit
 class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
 
     // UI objs
-    @IBOutlet weak var searchBar: UISearchBar!
+    lazy var searchBar = UISearchBar(frame: CGRect.zero)
     @IBOutlet weak var placeTblView: UITableView!
-    @IBOutlet weak var noResultLbl: UILabel!
-    @IBOutlet weak var myActivityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var noResultLbl: UILabel!    
 
     // Code obj
     var allPlacesArray = [AnyObject]()
@@ -24,6 +23,14 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // SearchBar programmatically
+        searchBar.placeholder = "Search a place. E.g. Brazil"
+        searchBar.sizeToFit()
+        searchBar.tintColor = UIColor.white
+        searchBar.barTintColor = UIColor(red: 9/255, green: 139/255, blue: 173/255, alpha: 1)
+        searchBar.delegate = self
+        navigationItem.titleView = searchBar
+
         // Call function
         startUI()
         
@@ -43,8 +50,6 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
     }
 
     func startUI() {
-        // Start activity indicator
-        myActivityIndicator.startAnimating()
         
         // Creating connections to access protocols of DataSource and Delegate
         placeTblView.dataSource = self
@@ -211,9 +216,6 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         
         // Hide the noResult label
         noResultLbl.isHidden = true
-        
-        // Stop activity indicator animation
-        myActivityIndicator.stopAnimating()
     }
     
     // Config used when is necessary hide he tableView, show the noResult label and start animation
@@ -224,9 +226,6 @@ class PlaceVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         
         // Show the label
         noResultLbl.isHidden = false
-        
-        // Start activity indicator
-        myActivityIndicator.startAnimating()
     }
 
     // Hide the keyboard and *Cancel button when user touch the view

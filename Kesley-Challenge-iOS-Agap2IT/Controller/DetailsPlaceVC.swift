@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class DetailsPlaceVC: UIViewController {
-    
+
     // UI objs
     @IBOutlet weak var addressLbl: UILabel!
     @IBOutlet weak var mapPlace: MKMapView!
@@ -34,11 +34,6 @@ class DetailsPlaceVC: UIViewController {
         
         // Get details place according to place id
         getDetailsPlace(placeID: PLACE_ID)
-    }
-    
-    // Function back button
-    @IBAction func backBtn(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
     }
     
     // Get detais place passing the place id
@@ -78,7 +73,7 @@ class DetailsPlaceVC: UIViewController {
             longitude: Double(long ?? "0.0") ?? 0.0
         )
         
-        let span = MKCoordinateSpanMake(0.3, 0.3)
+        let span = MKCoordinateSpanMake(0.2, 0.2)
         let region = MKCoordinateRegion(center: location, span: span)
         
         mapPlace.setRegion(region, animated: true)
